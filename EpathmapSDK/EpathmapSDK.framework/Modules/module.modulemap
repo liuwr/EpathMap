@@ -1,0 +1,6 @@
+framework module EpathmapSDK {
+  umbrella header "EpathmapSDK.h"
+
+  export *
+  module * { export * }
+}

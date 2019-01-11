@@ -1,0 +1,6 @@
+framework module EpathMap {
+  umbrella header "EpathMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
