@@ -30,13 +30,17 @@ $ pod install
 - 在Info.plist中添加授权申明
 ```bash
 <key>NSBluetoothPeripheralUsageDescription</key>
-<string>App需要您的同意,才能访问蓝牙</string>
+<string>开启蓝牙以使用室内导航服务</string>
+<key>NSCameraUsageDescription</key>
+<string>释途App需要您的同意,才能访问相机</string>
 <key>NSContactsUsageDescription</key>
 <string>App需要您的同意,才能访问通讯录</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>释途App会在室外定位及导航等服务中使用您的位置信息</string>
 <key>NSLocationWhenInUseUsageDescription</key>
-<string>App需要您的同意,才能在使用期间访问位置 </string>
+<string>释途App会在室外定位及导航等服务中使用您的位置信息</string>
 <key>NSMicrophoneUsageDescription</key>
-<string>App需要您的同意,才能访问麦克风</string>
+<string>释途App会在语音搜索中使用您的麦克风</string>
 ```
 ## 使用说明  
 
