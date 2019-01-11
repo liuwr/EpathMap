@@ -114,7 +114,7 @@ NSLog(@"在建筑物里面");
    }
    ```
    
-   ## 使用微信分享SDK实现（SDK1.1.6开始使用）
+   ## 使用微信分享SDK实现
    1、开发者可在自己的工程中接入微信SDK并完成register
    ```objective-c
    //例如在didFinishLaunchingWithOptions实现register
