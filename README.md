@@ -87,7 +87,7 @@ NSLog(@"在建筑物里面");
 
 ### 位置共享功能
 
-## 使用粘贴板实现（SDK1.1.6未启用该实现方案）
+## 使用粘贴板实现
 
 1、在 didFinishLaunchingWithOptions里面创建好window之后添加
 ```objective-c
