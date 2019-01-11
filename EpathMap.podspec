@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'EpathMap'
-s.version = '1.0.76'
+s.version = '1.0.77'
 s.summary = '释途室内地图导航SDK'
 
 s.description      = <<-DESC
@@ -24,7 +24,7 @@ s.source           = { :git => 'https://github.com/liuwr/EpathMap.git', :tag => 
 s.ios.deployment_target = '8.0'
 #s.source_files = 'Epathmap/**/*'
 
-s.resources = "EpathmapSDKImage/**/*","Epathmap/InfoPlist.bundle","EpathmapSDKImage/*.xcassets"
+s.resources = "EpathmapSDKImage/**/*","Epathmap/InfoPlist.bundle","EpathmapSDK.xcassets"
 
 s.ios.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
 
