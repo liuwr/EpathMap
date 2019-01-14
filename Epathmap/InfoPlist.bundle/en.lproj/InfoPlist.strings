@@ -6,7 +6,6 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
-"CFBundleDisplayName"="Epath";
 "EP_Langueage" = "en-US";//
 
 "NSBluetoothPeripheralUsageDescription" = "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
@@ -256,4 +255,23 @@
 "EP_TurnDegreesYourLeft" = " turn 120 degrees to your left and proceed ahead";//请乘电梯到XX层之后左后方行走
 "EP_TurnDegreesYourRight" = " turn 120 degrees to your right and proceed ahead";//请乘电梯到XX层之后右后方行走
 
+//=============图片名字================
+"ep_car_cancel" = "ep_car_cancel";
+"ep_car_clockIn" = "ep_car_clockIn";
+"ep_car_endFind" = "ep_car_endFind";
+"ep_car_findCar" = "ep_car_findCar";
+"ep_car_naviToCar" = "ep_car_naviToCar";
+"ep_car_refreshCarLoc" = "ep_car_refreshCarLoc";
+"ep_car_sure" = "ep_car_sure";
+"ep_home_logo" = "ep_home_logo";
+"ep_marker_start" = "ep_marker_start";
+"ep_marker_target" = "ep_marker_target";
+"ep_navi_compass" = "ep_navi_compass";
+"ep_navi_fakenavi" = "ep_navi_fakenavi";
+"ep_navi_goHere_big" = "ep_navi_goHere_big";
+"ep_navi_realnavi" = "ep_navi_realnavi";
+"ep_navi_unfakenavi" = "ep_navi_unfakenavi";
+"ep_navi_unrealnavi" = "ep_navi_unrealnavi";
+"ep_score_topimg" = "ep_score_topimg";
+"ep_share_invite_bottom" = "ep_share_invite_bottom";
 

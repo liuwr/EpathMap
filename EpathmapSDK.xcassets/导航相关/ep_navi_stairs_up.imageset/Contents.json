@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
+      "idiom" : "universal",
+      "filename" : "ep_navi_stairs_up.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
-      "filename" : "ep_navi_stairs_up.png",
+      "idiom" : "universal",
+      "filename" : "ep_navi_stairs_up@2x.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
-      "filename" : "ep_navi_stairs_up@2x.png",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
