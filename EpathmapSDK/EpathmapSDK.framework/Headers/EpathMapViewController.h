@@ -11,6 +11,7 @@
 #import <SceneKit/SceneKit.h>
 #import <ARKit/ARKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <AVFoundation/AVCaptureDevice.h>
 
 
 @class EpathBuilding;

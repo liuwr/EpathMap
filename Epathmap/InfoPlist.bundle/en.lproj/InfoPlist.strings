@@ -255,6 +255,9 @@
 "EP_TurnDegreesYourLeft" = " turn 120 degrees to your left and proceed ahead";//请乘电梯到XX层之后左后方行走
 "EP_TurnDegreesYourRight" = " turn 120 degrees to your right and proceed ahead";//请乘电梯到XX层之后右后方行走
 
+"EP_TurnCameraPermissions" = "Please turn on camera permissions";//请打开相机权限
+"EP_SettingsPrivacyCameraMes" = "Please go to the [Settings]->[Privacy]->[Camera] of the mobile phone system to open the [Epath] camera service, so that the live view navigation function can be used normally.";//请到手机系统的[设置]->[隐私]->[相机]中打开[释途]相机服务，以便正常使用实景导航功能
+
 //=============图片名字================
 "ep_car_cancel" = "ep_car_cancel";
 "ep_car_clockIn" = "ep_car_clockIn";

@@ -255,6 +255,9 @@
 "EP_TurnDegreesYourLeft" = "之后左后方行走";//请乘电梯到XX层之后左后方行走
 "EP_TurnDegreesYourRight" = "之后右后方行走";//请乘电梯到XX层之后右后方行走
 
+"EP_TurnCameraPermissions" = "请打开相机权限";//
+"EP_SettingsPrivacyCameraMes" = "请到手机系统的[设置]->[隐私]->[相机]中打开[释途]相机服务，以便正常使用实景导航功能";//
+
 //=============图片名字================
 "ep_car_cancel" = "ep_car_cancel";
 "ep_car_clockIn" = "ep_car_clockIn";

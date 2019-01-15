@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040900E021EDAF7F00926907 /* InfoPlist.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 040900DF21EDAF7F00926907 /* InfoPlist.bundle */; };
 		040D5F3A21DCC1020099A254 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3921DCC1020099A254 /* SystemConfiguration.framework */; };
 		040D5F3C21DCC1080099A254 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3B21DCC1080099A254 /* CFNetwork.framework */; };
 		040D5F3E21DCC10F0099A254 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3D21DCC10F0099A254 /* CoreTelephony.framework */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		040900DF21EDAF7F00926907 /* InfoPlist.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = InfoPlist.bundle; path = ../../Epathmap/InfoPlist.bundle; sourceTree = "<group>"; };
 		040D5F3921DCC1020099A254 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		040D5F3B21DCC1080099A254 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		040D5F3D21DCC10F0099A254 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -168,6 +170,7 @@
 		6003F593195388D20070C39A /* Example for EapthMap */ = {
 			isa = PBXGroup;
 			children = (
+				040900DF21EDAF7F00926907 /* InfoPlist.bundle */,
 				047C2CD621E44159005541DD /* EpathmapSDK.framework */,
 				6003F59C195388D20070C39A /* EpathmapAppDelegate.h */,
 				6003F59D195388D20070C39A /* EpathmapAppDelegate.m */,
@@ -318,6 +321,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				040900E021EDAF7F00926907 /* InfoPlist.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				E17990B621D610E700F0FB71 /* EpathMap.podspec in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
