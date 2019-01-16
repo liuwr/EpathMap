@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		040900E021EDAF7F00926907 /* InfoPlist.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 040900DF21EDAF7F00926907 /* InfoPlist.bundle */; };
+		040900E121EDB31D00926907 /* EpathmapSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 047C2CD621E44159005541DD /* EpathmapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		040D5F3A21DCC1020099A254 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3921DCC1020099A254 /* SystemConfiguration.framework */; };
 		040D5F3C21DCC1080099A254 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3B21DCC1080099A254 /* CFNetwork.framework */; };
 		040D5F3E21DCC10F0099A254 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3D21DCC10F0099A254 /* CoreTelephony.framework */; };
 		040D5F4021DCC1150099A254 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3F21DCC1150099A254 /* libz.tbd */; };
 		040D5F4221DCC11C0099A254 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F4121DCC11C0099A254 /* libc++.tbd */; };
 		040D5F4421DCC1230099A254 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F4321DCC1230099A254 /* libsqlite3.tbd */; };
-		047C2CD721E44167005541DD /* EpathmapSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 047C2CD621E44159005541DD /* EpathmapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5DFE01887FBC444E46059136 /* Pods_EapthMap_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFAE597C1B6EDCFB32EDC5A /* Pods_EapthMap_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -51,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				047C2CD721E44167005541DD /* EpathmapSDK.framework in CopyFiles */,
+				040900E121EDB31D00926907 /* EpathmapSDK.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +249,7 @@
 				6003F588195388D20070C39A /* Resources */,
 				6009ABEBBD0057013DD4AA10 /* [CP] Embed Pods Frameworks */,
 				040D5F4521DCC1A80099A254 /* CopyFiles */,
+				55BB36C31DBA7D0544FAACFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +340,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		55BB36C31DBA7D0544FAACFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6009ABEBBD0057013DD4AA10 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,20 +367,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-frameworks.sh",
 				"${PODS_ROOT}/../../EpathmapSDK/EpathmapSDK.framework",
-				"${BUILT_PRODUCTS_DIR}/EpathMap/EpathMap.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EpathmapSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EpathMap.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A2810C9A67ACADC355C76288 /* [CP] Check Pods Manifest.lock */ = {
@@ -491,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -547,7 +565,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34BDFAA7F4C4AED1C55B94F8 /* Pods-EapthMap_Example.debug.xcconfig */;
+			baseConfigurationReference = 2ED819009128A4D5F42ECF02 /* Pods-EapthMap_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 693K8A36T3;
@@ -565,7 +583,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB71BF1EDEB48AC65509F0AA /* Pods-EapthMap_Example.release.xcconfig */;
+			baseConfigurationReference = 5302389EBAA9071F5EC10213 /* Pods-EapthMap_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 693K8A36T3;

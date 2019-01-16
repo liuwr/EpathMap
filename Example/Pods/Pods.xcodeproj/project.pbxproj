@@ -6,253 +6,266 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		01B198C61AACBA0D3A516A68068A3C18 /* EpathMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA4B3DAB9CCED3DCA3680761925DC29B /* Build configuration list for PBXAggregateTarget "EpathMap" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = EpathMap;
+		};
+		149CB603BFFE3FFDFD3C8C2D818CDE52 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2A3697FE51AE9F5E01C32D414C67597D /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		03717E3727629CD2E76CD7B6701AFF3B /* LaunchScreen.strings in Sources */ = {isa = PBXBuildFile; fileRef = A9C4A14E30D54BC4A3EB0B2AD8978ADC /* LaunchScreen.strings */; };
-		0515045F7591BB257D2614091F314703 /* ep_navi_unfakenavi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9BF7730858F9985B8C8EF036CC605 /* ep_navi_unfakenavi@3x.png */; };
-		16964BBBA0650867F916865FC972EB9C /* ep_car_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2233BE2DA1E3B385178B13631E77FA /* ep_car_cancel.png */; };
-		1D1DF297565C11C5D0A3255710900619 /* ep_marker_target@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E594D1B148E78A9DE05371CDFA3039FE /* ep_marker_target@2x.png */; };
-		1DEB3A524975D0084678544E5E45555C /* ep_car_refreshCarLoc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF218610AD5F583E1DBA2ACDDA353F9 /* ep_car_refreshCarLoc@3x.png */; };
-		1FA635A840E6C3AFB85D9E9E6C1CB750 /* ep_car_findCar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DDE02CAE4BBC00252984B825D83C82 /* ep_car_findCar@2x.png */; };
-		20A3A906101B9201D68B44862624C0C3 /* InfoPlist.strings in Sources */ = {isa = PBXBuildFile; fileRef = D96EAF2E16C640ED2163704FA1126C4C /* InfoPlist.strings */; };
-		33D49D4FD2C6D58EDDB6677FE78AB678 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59167F9F114DB87F6185F51F51A995 /* SystemConfiguration.framework */; };
-		342B965E3BF51649CBC0CC18B9982C0C /* ep_car_naviToCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CEEC1CC9807054FCE018BD612A408 /* ep_car_naviToCar.png */; };
-		38A9511AAD534275BE853153551D60A1 /* ep_navi_unrealnavi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6B32A22F5E24D30EE5CA578A49D398 /* ep_navi_unrealnavi@2x.png */; };
-		399EA3D3ED02649D4F46FFA40E21D87C /* ep_navi_goHere_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D589F6E6708EB3503C995CF2AC3674 /* ep_navi_goHere_big@3x.png */; };
-		42560851348F7D1B6BACBC64C2292A9A /* ep_navi_compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B6EA89922AF7E08F030E307E1BBF0F /* ep_navi_compass@2x.png */; };
-		454D328EA316C9E592EEFD374B6E268C /* ep_navi_goHere_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5981A1C929B91F46725DB38767D73BC9 /* ep_navi_goHere_big@2x.png */; };
-		4824506B7BBFC6130020BD86D434EE1B /* ep_navi_fakenavi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165770660C7DDD3166827CEF636DF8F6 /* ep_navi_fakenavi@3x.png */; };
-		4BEA3DC7643DA323A5F2F2BA40A24A43 /* ep_score_topimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 546AB71A1F50E2121232BD3E1266BC1D /* ep_score_topimg@2x.png */; };
-		51D1C90D5329288EE01551BB174F0EE2 /* ep_car_sure.png in Resources */ = {isa = PBXBuildFile; fileRef = 938ACBC7BECF7AAF734CF8684A528590 /* ep_car_sure.png */; };
-		51D4E3C6800F8035DD8CF0F3D2E732A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9713788E188CAD39906021C0B6C38 /* CoreGraphics.framework */; };
-		5C197C0584B353B2C2E18F78111DF06F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056227BF67991DF730F46C5FC1FD0097 /* QuartzCore.framework */; };
-		5E688D3ED30BD11EB579AD66D03EB486 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349EE189E9791DE7C862BFA9370AB449 /* AddressBook.framework */; };
-		60812CF9E72256CC99E467A90471F4F7 /* ep_home_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36693209774F0865AFDE96B411CDB2FA /* ep_home_logo@3x.png */; };
-		662A2DFB371E61EBA2E6F653FD124648 /* EpathmapSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 3376E4AF07A4AFDD26DB72AE835372A9 /* EpathmapSDK.framework */; };
-		70CBAA76E67DB956DDE2B56335BE6E26 /* ep_car_endFind.png in Resources */ = {isa = PBXBuildFile; fileRef = E85D21EA728BFCD4C9FF1F6E4E1A5E17 /* ep_car_endFind.png */; };
-		79BCF4F26758D867D85C68B39692F3D8 /* ep_navi_unrealnavi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB679C580B975FDA78DC78CE0DD269C2 /* ep_navi_unrealnavi@3x.png */; };
-		7BBA9A787F622A0A6511A56DB7AA5220 /* EpathmapSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E854D0D6E7B0844B8ED2B17CCD76FB /* EpathmapSDK.xcassets */; };
-		87553E213AFED1B2784D71E4E2C72DF1 /* ep_marker_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE52C9A8605D94139C187F5BAFAA01 /* ep_marker_start@2x.png */; };
-		97058CC02A368C9B0486FE3559E7B44B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D32C8920C30BE15E1304A0E6F89F37B /* CoreTelephony.framework */; };
-		9AE846F8DBDCB5D05754204C090FFE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6496DEAAE4C607EB4D1395C34887FD1B /* Foundation.framework */; };
-		9E21CADB6E6520CD38EA47D311F0C9D5 /* LaunchScreen.strings in Sources */ = {isa = PBXBuildFile; fileRef = A93EF340DF6444F71F7A99292FE129A8 /* LaunchScreen.strings */; };
-		A0243FE218BDEA0A2622BC7D47B61244 /* ep_car_cancel.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 03485880B044465AF56FDA21000C0E6C /* ep_car_cancel.png.png */; };
-		A56721A3BCF648F92ED28765DD0B6440 /* ep_navi_realnavi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 805BD0B415D974CA4FC1DD987B03063B /* ep_navi_realnavi@3x.png */; };
-		A699FBC9B2D559096EE1A6D672ABFF8C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FF8FE098242E117E5361F8970BFDAC /* AudioToolbox.framework */; };
-		A947233A2B67E6400D3EF7A349B960E9 /* ep_car_clockIn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3B314C3DEE4CCC6FCB14A4EF693638 /* ep_car_clockIn@3x.png */; };
-		AB322C4EDB596C12D5101B3057052EEE /* EpathMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 200B7D757F167E3788C0E75095ED224C /* EpathMap-dummy.m */; };
-		B3C5CC06E089798B7F2F56D9B08C850F /* ep_navi_fakenavi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62178A327556069B26FF6509750A49FC /* ep_navi_fakenavi@2x.png */; };
-		B45B329465CF966687FAB1F8A26E5736 /* ep_navi_unfakenavi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C9574FB1ABF51A98E6C9A87D4B359C /* ep_navi_unfakenavi@2x.png */; };
-		BF20460134497F748D4329DEC2504319 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E6EC768A1EB513F1E2E2CBE8041A81 /* AVFoundation.framework */; };
-		BFED1112451B0F2F7EA27497332F96D5 /* EpathMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D959D28CCB46BE0EA20CE7C751005C /* EpathMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C06A678E18458E5B04B399EA0241C948 /* ep_score_topimg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54FC8D49EDF56C2ACFF57D152AA86DEA /* ep_score_topimg@3x.png */; };
-		C997F7C190CE5D838377366880B38410 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E670CF8053246D275355FCD1193E4BA8 /* CoreLocation.framework */; };
-		CB5C23F96D9998302769C77E0C09A48B /* ep_share_invite_bottom@3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 8970C05B5F3AB2C05BFF23D1999B8E2D /* ep_share_invite_bottom@3X.png */; };
-		D0210234E01002A887C1ABF222AA2267 /* InfoPlist.strings in Sources */ = {isa = PBXBuildFile; fileRef = 9D78B458B5A99A2EFE9F5656341F89FD /* InfoPlist.strings */; };
-		D14F68B61AA259732FC3D882FA99459D /* ep_car_findCar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39967D0CA8BBF3EA5D1A14759E523F24 /* ep_car_findCar@3x.png */; };
-		D4C33D9D71EEE171D93FC6CC1B6D428D /* ep_marker_start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A732E800F238272B14C9B9CF35EC2D35 /* ep_marker_start@3x.png */; };
-		D7F9524F7074A85F438F7E61F4286FE7 /* Pods-EapthMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82C59CF0C26AD6183BB1F8123AD394B /* Pods-EapthMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF65013DAEFF44BB001FF2E405028211 /* Pods-EapthMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B0B77416EA871931AD0C73198CCE9 /* Pods-EapthMap_Example-dummy.m */; };
-		E553B5A078CB1648A98085E21BD35FE8 /* ep_home_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FF2F2717BB23EA92AF8376452322CD /* ep_home_logo@2x.png */; };
-		E8E9E126F250AD55E53FABF228F877E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6496DEAAE4C607EB4D1395C34887FD1B /* Foundation.framework */; };
-		EB512F4B8A82C09E38562F23C454DEFE /* ep_car_clockIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9FBE7E02761CE43BE600F9DCC9AD9B /* ep_car_clockIn@2x.png */; };
-		F1FC99EC4A5F7F85A6353047B8EF4006 /* ep_share_invite_bottom@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3CB7A1681CD62146D4B236CCFB4BB /* ep_share_invite_bottom@2X.png */; };
-		F2963EDE8E4AA2AB7A2974E1601F389F /* ep_marker_target@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B8B7A779C1764BA8569AB6C4C4E19C /* ep_marker_target@3x.png */; };
-		F74E1A699DB3CB0DBEF3521047D5D0C7 /* ep_car_refreshCarLoc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC26DB56A49A3AE43E485306EEBC497 /* ep_car_refreshCarLoc@2x.png */; };
-		FA8BC8F840E138A6C96C153AB86C43C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7BBE7B5F1DE2EA9F799DCDEE2834A3 /* UIKit.framework */; };
-		FF2690DFCF7B54AC96B1EFFAF1717B90 /* ep_navi_realnavi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DB4C2FFB4CF2C1CCD8ACFCDD74D0B4 /* ep_navi_realnavi@2x.png */; };
+		28F7D00477D697B67A3A493227A17556 /* Pods-EapthMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDAA697C89582BF53F83592F737DC06 /* Pods-EapthMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293103AB26548F2A47F260F492106483 /* Pods-EapthMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88745FAE48512610C2DBE939380E298D /* Pods-EapthMap_Example-dummy.m */; };
+		E35EFA9AF2C44545BD59B936B0C1E89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E22E990E0CBDB93B293CA7E595C290A /* PBXContainerItemProxy */ = {
+		72998761975261150F239DF2E9C25536 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 758C49AD7B11A3052FB529291E34C426;
+			remoteGlobalIDString = 149CB603BFFE3FFDFD3C8C2D818CDE52;
+			remoteInfo = WechatOpenSDK;
+		};
+		8AF5DDF54052E4D84544B73EAFFC4E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B198C61AACBA0D3A516A68068A3C18;
 			remoteInfo = EpathMap;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		056227BF67991DF730F46C5FC1FD0097 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		06BFD58D9816FADCAC5F78BE1BBB793F /* ep_navi_fakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@2x.png"; path = "zh-Hans.lproj/ep_navi_fakenavi@2x.png"; sourceTree = "<group>"; };
-		0753E20F50AB2DEBC72F20E673256BAD /* Pods-EapthMap_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EapthMap_Example-resources.sh"; sourceTree = "<group>"; };
-		0785FBE2B0F16BBFCA8B5D142C2570B2 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.3/WechatAuthSDK.h; sourceTree = "<group>"; };
-		0C79613AB5FF329CCA885874002B7D7A /* ep_car_cancel.png.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png.png; path = "zh-Hans.lproj/ep_car_cancel.png.png"; sourceTree = "<group>"; };
-		0DBBB2ECBEBE3A0190763D713F4C35B2 /* Pods-EapthMap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EapthMap_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1249557E3B89E6298F47D3ADA781C884 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		13C1338F9E74DC334E175BF2B1429FEF /* EpathMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EpathMap.modulemap; sourceTree = "<group>"; };
-		18F62A003413C4AD0B0A9FB91E78161A /* ep_car_clockIn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@3x.png"; path = "en.lproj/ep_car_clockIn@3x.png"; sourceTree = "<group>"; };
-		1A02A3456D9471C881192D5B94C4F929 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1BABD9DB7CD8FA22D4C3FFF81FF1F62D /* ep_car_findCar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@2x.png"; path = "zh-Hans.lproj/ep_car_findCar@2x.png"; sourceTree = "<group>"; };
-		1FBA266A6AA2CD7C0BE2082D95EA76D3 /* Pods-EapthMap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EapthMap_Example-frameworks.sh"; sourceTree = "<group>"; };
-		200B7D757F167E3788C0E75095ED224C /* EpathMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EpathMap-dummy.m"; sourceTree = "<group>"; };
-		211D70A093FB23681869AFAC6A6CAB74 /* ep_marker_target@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@3x.png"; path = "zh-Hans.lproj/ep_marker_target@3x.png"; sourceTree = "<group>"; };
-		2AF930B948CE471CF18BACFE90AB96AC /* ep_marker_target@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@2x.png"; path = "zh-Hans.lproj/ep_marker_target@2x.png"; sourceTree = "<group>"; };
-		305780C64CD2FF114A795CD35E2FEE43 /* ep_navi_realnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@2x.png"; path = "en.lproj/ep_navi_realnavi@2x.png"; sourceTree = "<group>"; };
-		3376E4AF07A4AFDD26DB72AE835372A9 /* EpathmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpathmapSDK.framework; path = EpathmapSDK/EpathmapSDK.framework; sourceTree = "<group>"; };
-		349EE189E9791DE7C862BFA9370AB449 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
-		34DE17657B0C7347648790105FA88355 /* Pods_EapthMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EapthMap_Example.framework; path = "Pods-EapthMap_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3576581511D8425C336451158ADCDA54 /* ep_car_findCar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@3x.png"; path = "zh-Hans.lproj/ep_car_findCar@3x.png"; sourceTree = "<group>"; };
-		3753FF4A2DCEFB81CD8345BE4996F2DE /* ep_car_refreshCarLoc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@2x.png"; path = "zh-Hans.lproj/ep_car_refreshCarLoc@2x.png"; sourceTree = "<group>"; };
-		37D40B144C8D17EEB4D0F8548347BDD0 /* ep_navi_unfakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@3x.png"; path = "zh-Hans.lproj/ep_navi_unfakenavi@3x.png"; sourceTree = "<group>"; };
-		3800F8EDD5B0C14C52C7B9458048E9D3 /* ep_score_topimg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@3x.png"; path = "en.lproj/ep_score_topimg@3x.png"; sourceTree = "<group>"; };
-		3D32C8920C30BE15E1304A0E6F89F37B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		3DE465A1A127688578084AB9732CBF7F /* ep_marker_target@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@3x.png"; path = "en.lproj/ep_marker_target@3x.png"; sourceTree = "<group>"; };
-		3E0C001FE2EC586239C9A973DFF383E2 /* ep_navi_compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_compass@2x.png"; path = "en.lproj/ep_navi_compass@2x.png"; sourceTree = "<group>"; };
-		3F6F34173ABC8063E527F9DF33E8B804 /* Pods-EapthMap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EapthMap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		437B0572D756B1C44618D7C85C424A83 /* ep_home_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@2x.png"; path = "en.lproj/ep_home_logo@2x.png"; sourceTree = "<group>"; };
-		478B7F4E1B8B7EF232B21A51E06D0F50 /* ep_navi_goHere_big@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@3x.png"; path = "zh-Hans.lproj/ep_navi_goHere_big@3x.png"; sourceTree = "<group>"; };
-		55F0F769019D25DC843724F05C82927C /* ep_navi_unrealnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@2x.png"; path = "zh-Hans.lproj/ep_navi_unrealnavi@2x.png"; sourceTree = "<group>"; };
-		5C3D2BF681C2073B630A6134505EADD0 /* ep_car_clockIn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@3x.png"; path = "zh-Hans.lproj/ep_car_clockIn@3x.png"; sourceTree = "<group>"; };
-		5C908468C847373A3659DB84F572F8CB /* ep_share_invite_bottom@2X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@2X.png"; path = "zh-Hans.lproj/ep_share_invite_bottom@2X.png"; sourceTree = "<group>"; };
-		5CFFF81220C451122ABA62C8B7CA083B /* ep_navi_fakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@3x.png"; path = "zh-Hans.lproj/ep_navi_fakenavi@3x.png"; sourceTree = "<group>"; };
-		6203ADCB6AC429259B208065D50A9319 /* ep_home_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@3x.png"; path = "zh-Hans.lproj/ep_home_logo@3x.png"; sourceTree = "<group>"; };
-		6496DEAAE4C607EB4D1395C34887FD1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6BC90FFB92A61EF9A951B55909DCBC25 /* ep_navi_goHere_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@2x.png"; path = "zh-Hans.lproj/ep_navi_goHere_big@2x.png"; sourceTree = "<group>"; };
-		701F421A3F266B2BE1FC6C21484B0876 /* ep_navi_fakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@3x.png"; path = "en.lproj/ep_navi_fakenavi@3x.png"; sourceTree = "<group>"; };
-		71A931BBC09F8E3AB0C935739983B3E3 /* ep_car_naviToCar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_naviToCar.png; path = "zh-Hans.lproj/ep_car_naviToCar.png"; sourceTree = "<group>"; };
-		73C1D29519C100C32C78805503D202C9 /* ep_marker_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@2x.png"; path = "en.lproj/ep_marker_start@2x.png"; sourceTree = "<group>"; };
-		76093E0396440B3DA7A21EBECD88DE38 /* ep_marker_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@3x.png"; path = "zh-Hans.lproj/ep_marker_start@3x.png"; sourceTree = "<group>"; };
-		7D1AD966039A8B402FC45479C476128B /* EpathMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EpathMap.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		80FB91425B4EBCE7A7D48A216454EA43 /* ep_share_invite_bottom@3X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@3X.png"; path = "zh-Hans.lproj/ep_share_invite_bottom@3X.png"; sourceTree = "<group>"; };
-		884246EC2DAFE4A3EFBE76341D94C0A6 /* ep_score_topimg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@3x.png"; path = "zh-Hans.lproj/ep_score_topimg@3x.png"; sourceTree = "<group>"; };
-		884BD4E420865223A1283C29F3D0B10D /* ep_navi_unfakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@3x.png"; path = "en.lproj/ep_navi_unfakenavi@3x.png"; sourceTree = "<group>"; };
-		888359DA76EC0D8980C1C9D906384F15 /* ep_car_refreshCarLoc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@3x.png"; path = "zh-Hans.lproj/ep_car_refreshCarLoc@3x.png"; sourceTree = "<group>"; };
-		88C60E019523D5559870CCE159516704 /* ep_car_findCar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@3x.png"; path = "en.lproj/ep_car_findCar@3x.png"; sourceTree = "<group>"; };
-		89ECA57FBF3ED336E4238BA05B788D3F /* ep_car_findCar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@2x.png"; path = "en.lproj/ep_car_findCar@2x.png"; sourceTree = "<group>"; };
-		8AD6A9CC1310A73DEEB89E306A75597D /* ep_car_refreshCarLoc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@3x.png"; path = "en.lproj/ep_car_refreshCarLoc@3x.png"; sourceTree = "<group>"; };
-		8DF562987B1229DB9CEBCF67856CCA3E /* ep_marker_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@2x.png"; path = "zh-Hans.lproj/ep_marker_start@2x.png"; sourceTree = "<group>"; };
-		8E3F3C7F846638AC86B7CE6D567EE1D5 /* ep_navi_realnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@3x.png"; path = "zh-Hans.lproj/ep_navi_realnavi@3x.png"; sourceTree = "<group>"; };
-		8F2B0B77416EA871931AD0C73198CCE9 /* Pods-EapthMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EapthMap_Example-dummy.m"; sourceTree = "<group>"; };
-		916C0E18DE64E9E337876A557B8A932C /* ep_navi_realnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@2x.png"; path = "zh-Hans.lproj/ep_navi_realnavi@2x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D9713788E188CAD39906021C0B6C38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		97E25EF53D78E93D4EF8ABDA7ADB3E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D78B458B5A99A2EFE9F5656341F89FD /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9F1FADF98EE79DAD3ECB90DD231CE955 /* ep_navi_compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_compass@2x.png"; path = "zh-Hans.lproj/ep_navi_compass@2x.png"; sourceTree = "<group>"; };
-		9FED5D044E66C73A7A3D62D73B71D962 /* Pods-EapthMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EapthMap_Example.modulemap"; sourceTree = "<group>"; };
-		A05E343532451C2C4DC2461A06007DFD /* EpathMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EpathMap.framework; path = EpathMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0A0D729DAFD3DF570463863196C76B6 /* ep_home_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@3x.png"; path = "en.lproj/ep_home_logo@3x.png"; sourceTree = "<group>"; };
-		A0D8D5F992149E24D218CADA56EF5388 /* ep_car_naviToCar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_naviToCar.png; path = en.lproj/ep_car_naviToCar.png; sourceTree = "<group>"; };
-		A1211B041C086B7CF7D5D2C4D6C05BB6 /* ep_car_clockIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@2x.png"; path = "en.lproj/ep_car_clockIn@2x.png"; sourceTree = "<group>"; };
-		A5E6EC768A1EB513F1E2E2CBE8041A81 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		A6E8B6E8EB8AC2B918EBE669AC092997 /* ep_car_sure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_sure.png; path = "zh-Hans.lproj/ep_car_sure.png"; sourceTree = "<group>"; };
-		A93EF340DF6444F71F7A99292FE129A8 /* LaunchScreen.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		A9C4A14E30D54BC4A3EB0B2AD8978ADC /* LaunchScreen.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		AA532CAD328BE8999B8EF722B9FE8C8E /* ep_car_endFind.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_endFind.png; path = "zh-Hans.lproj/ep_car_endFind.png"; sourceTree = "<group>"; };
-		AE2BD4ABA4B0E9A9D111DA9FAC6D9833 /* ep_navi_unfakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@2x.png"; path = "zh-Hans.lproj/ep_navi_unfakenavi@2x.png"; sourceTree = "<group>"; };
-		AFD37C01EF7E48D83E053F74EBE3CBF0 /* ep_score_topimg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@2x.png"; path = "zh-Hans.lproj/ep_score_topimg@2x.png"; sourceTree = "<group>"; };
-		B3DCEF1A433132795993EBDFB116842C /* Pods-EapthMap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EapthMap_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B63499F29A6CB259D66436B88BDD50B5 /* ep_navi_unfakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@2x.png"; path = "en.lproj/ep_navi_unfakenavi@2x.png"; sourceTree = "<group>"; };
-		B7164C9BB9089CCCC25A3E6706D9E32D /* ep_navi_goHere_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@2x.png"; path = "en.lproj/ep_navi_goHere_big@2x.png"; sourceTree = "<group>"; };
-		B7387F98468AEC4F0BFEB44D3C56FDF7 /* ep_marker_target@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@2x.png"; path = "en.lproj/ep_marker_target@2x.png"; sourceTree = "<group>"; };
-		B9DA7B15DE9B3F0B2DB05D348F01B5DC /* ep_marker_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@3x.png"; path = "en.lproj/ep_marker_start@3x.png"; sourceTree = "<group>"; };
-		BA8514FB2255C9EC42298D90AAE3BFA2 /* ep_navi_unrealnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@3x.png"; path = "zh-Hans.lproj/ep_navi_unrealnavi@3x.png"; sourceTree = "<group>"; };
-		BBF69A36696A970B522991C355F26458 /* ep_car_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png; path = "zh-Hans.lproj/ep_car_cancel.png"; sourceTree = "<group>"; };
-		BC8AD317CE74F5E58F51AA3EA6DC00AD /* ep_score_topimg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@2x.png"; path = "en.lproj/ep_score_topimg@2x.png"; sourceTree = "<group>"; };
-		C23F4F866C36E1139E5EF6B5BDB08923 /* ep_car_refreshCarLoc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@2x.png"; path = "en.lproj/ep_car_refreshCarLoc@2x.png"; sourceTree = "<group>"; };
-		C29B75AFA75D831826C86401E9B914FC /* ep_navi_unrealnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@3x.png"; path = "en.lproj/ep_navi_unrealnavi@3x.png"; sourceTree = "<group>"; };
-		C35CB94E65E46407A45F076C1A8765F3 /* EpathMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EpathMap-prefix.pch"; sourceTree = "<group>"; };
-		C424636047B20EEB6213458CAA4FF8C6 /* ep_car_sure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_sure.png; path = en.lproj/ep_car_sure.png; sourceTree = "<group>"; };
-		CC64B4EB3B514CA66FD3C69572439FF8 /* ep_navi_realnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@3x.png"; path = "en.lproj/ep_navi_realnavi@3x.png"; sourceTree = "<group>"; };
-		CE59167F9F114DB87F6185F51F51A995 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		CF5782BFA1C3FBA1E96031A57F130337 /* ep_navi_fakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@2x.png"; path = "en.lproj/ep_navi_fakenavi@2x.png"; sourceTree = "<group>"; };
-		D96EAF2E16C640ED2163704FA1126C4C /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		D9E854D0D6E7B0844B8ED2B17CCD76FB /* EpathmapSDK.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = EpathmapSDK.xcassets; sourceTree = "<group>"; };
-		DCBBA7CFF731A2A659B5B6B0FEEE1BD4 /* ep_car_cancel.png.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png.png; path = en.lproj/ep_car_cancel.png.png; sourceTree = "<group>"; };
-		DF6F48A794D5A5C6D096B964C6BFE1A7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.3/WXApiObject.h; sourceTree = "<group>"; };
-		E1AE1CFBEAEB5584371E1F5D28C7E2F9 /* ep_home_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@2x.png"; path = "zh-Hans.lproj/ep_home_logo@2x.png"; sourceTree = "<group>"; };
-		E2BB4B9FCB4E29B756DE9399DDB0178F /* ep_car_endFind.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_endFind.png; path = en.lproj/ep_car_endFind.png; sourceTree = "<group>"; };
-		E63CD1BB17E0836FF4CBE4F9299A8848 /* ep_car_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png; path = en.lproj/ep_car_cancel.png; sourceTree = "<group>"; };
-		E670CF8053246D275355FCD1193E4BA8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		E82C59CF0C26AD6183BB1F8123AD394B /* Pods-EapthMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EapthMap_Example-umbrella.h"; sourceTree = "<group>"; };
-		E849A7B0E08DD64824265644F1E9EB6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9727D2F71C848B8F056E1CC990325E0 /* ep_car_clockIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@2x.png"; path = "zh-Hans.lproj/ep_car_clockIn@2x.png"; sourceTree = "<group>"; };
-		E9D959D28CCB46BE0EA20CE7C751005C /* EpathMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EpathMap-umbrella.h"; sourceTree = "<group>"; };
-		EB7BBE7B5F1DE2EA9F799DCDEE2834A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ED95EC5C6890CEEA6B34AD22C51E7FE9 /* EpathMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EpathMap.xcconfig; sourceTree = "<group>"; };
-		F38E869CA6BEA91EA9BEAF811640E960 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.3/WXApi.h; sourceTree = "<group>"; };
-		F487EDDE613757E4E7EEE7D2423905A4 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.3/libWeChatSDK.a; sourceTree = "<group>"; };
-		F8FF8FE098242E117E5361F8970BFDAC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		F95561281AFB83A8262749F10A4AC41E /* ep_navi_goHere_big@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@3x.png"; path = "en.lproj/ep_navi_goHere_big@3x.png"; sourceTree = "<group>"; };
-		F9C8C76DBA09FBF4AEA97A1D46E1284B /* Pods-EapthMap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EapthMap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FADBCDDA0EEB144F1C0B213B7E18FB76 /* ep_navi_unrealnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@2x.png"; path = "en.lproj/ep_navi_unrealnavi@2x.png"; sourceTree = "<group>"; };
-		FC8661014809E84719089B3E771E09EA /* ep_share_invite_bottom@2X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@2X.png"; path = "en.lproj/ep_share_invite_bottom@2X.png"; sourceTree = "<group>"; };
+		02D5EF6987000F6E2BBDC4AD9CDA3947 /* ep_navi_unfakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@2x.png"; path = "zh-Hans.lproj/ep_navi_unfakenavi@2x.png"; sourceTree = "<group>"; };
+		0385502D4EC3D7A625FCAFAC49981E6A /* ep_share_invite_bottom@2X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@2X.png"; path = "en.lproj/ep_share_invite_bottom@2X.png"; sourceTree = "<group>"; };
+		03B5DF7D2F4B907B74E6FBCF078F29B8 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.3/WechatAuthSDK.h; sourceTree = "<group>"; };
+		04E42A149A685BDEABBCBD711A7DC7A2 /* ep_car_naviToCar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_naviToCar.png; path = en.lproj/ep_car_naviToCar.png; sourceTree = "<group>"; };
+		09D78569943C204A7F7BB79381D15AE9 /* ep_car_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png; path = en.lproj/ep_car_cancel.png; sourceTree = "<group>"; };
+		0AE6904DB470735AF7058FA3D0EE2417 /* ep_marker_target@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@3x.png"; path = "en.lproj/ep_marker_target@3x.png"; sourceTree = "<group>"; };
+		0D2D3A2F222EA033853080B53E0D635A /* ep_home_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@3x.png"; path = "en.lproj/ep_home_logo@3x.png"; sourceTree = "<group>"; };
+		0E47C1EF955E72A273A1BF2C2D717E27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1602D3939289303770053F54D20EB6E0 /* ep_score_topimg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@2x.png"; path = "en.lproj/ep_score_topimg@2x.png"; sourceTree = "<group>"; };
+		1857971E0C6F6C04CAC1AFE2AEC615C6 /* ep_car_sure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_sure.png; path = en.lproj/ep_car_sure.png; sourceTree = "<group>"; };
+		18E8C28EDA3DE97627A642B076925CC9 /* ep_navi_fakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@2x.png"; path = "zh-Hans.lproj/ep_navi_fakenavi@2x.png"; sourceTree = "<group>"; };
+		19F1F40CD34998A08CB77D716F485028 /* ep_marker_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@2x.png"; path = "zh-Hans.lproj/ep_marker_start@2x.png"; sourceTree = "<group>"; };
+		1A409AE99E20AD98E191CE6BC2701600 /* ep_navi_unrealnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@3x.png"; path = "zh-Hans.lproj/ep_navi_unrealnavi@3x.png"; sourceTree = "<group>"; };
+		1A85E00AD23571540984AFEB019A8535 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AF9CA9FEDAADBDD26AE020FA5470A13 /* ep_score_topimg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@2x.png"; path = "zh-Hans.lproj/ep_score_topimg@2x.png"; sourceTree = "<group>"; };
+		1E0D810BB5792E3FF449975479EBD88D /* Pods-EapthMap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EapthMap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E7C017F8EFFA9CDE24687B06CC404B4 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.3/WXApiObject.h; sourceTree = "<group>"; };
+		201055D2BE6629FCED4D31169DDD25C1 /* Pods-EapthMap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EapthMap_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		22E75647DF8676D542BE5E1E049F44D9 /* ep_navi_unfakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@3x.png"; path = "zh-Hans.lproj/ep_navi_unfakenavi@3x.png"; sourceTree = "<group>"; };
+		234BF44AAEFCD75CC87D5B33159B171D /* ep_navi_realnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@2x.png"; path = "zh-Hans.lproj/ep_navi_realnavi@2x.png"; sourceTree = "<group>"; };
+		278B75EA0C326DEA8CCF69926D6254F8 /* ep_car_refreshCarLoc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@3x.png"; path = "en.lproj/ep_car_refreshCarLoc@3x.png"; sourceTree = "<group>"; };
+		28FAD1EE42838CEB0DBDB953AF82770F /* EpathMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EpathMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BEAF6697992A6C200531D83D8695088 /* ep_navi_goHere_big@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@3x.png"; path = "zh-Hans.lproj/ep_navi_goHere_big@3x.png"; sourceTree = "<group>"; };
+		3243B4AA7E23350DE3EE250D0B0D5133 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.3/WXApi.h; sourceTree = "<group>"; };
+		34B90487D5DA0BA8248A04B7E2CE43C2 /* ep_car_findCar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@3x.png"; path = "en.lproj/ep_car_findCar@3x.png"; sourceTree = "<group>"; };
+		3531EE5C6804540B6F500F53718E1624 /* Pods-EapthMap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EapthMap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38E40FC11A052E9E5BAD60C7FD03266C /* ep_navi_goHere_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@2x.png"; path = "en.lproj/ep_navi_goHere_big@2x.png"; sourceTree = "<group>"; };
+		3BAD9D39CDBACC4B859DF9CC6FC6D3D7 /* Pods-EapthMap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EapthMap_Example-frameworks.sh"; sourceTree = "<group>"; };
+		43B4C717BB84567A4E2850411E27B9B4 /* ep_car_clockIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@2x.png"; path = "en.lproj/ep_car_clockIn@2x.png"; sourceTree = "<group>"; };
+		499EFAC5E13256B1A7F27BB498673B62 /* ep_navi_realnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@2x.png"; path = "en.lproj/ep_navi_realnavi@2x.png"; sourceTree = "<group>"; };
+		4FC3854ADA982D083A38821E2DD39A9A /* ep_car_refreshCarLoc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@2x.png"; path = "en.lproj/ep_car_refreshCarLoc@2x.png"; sourceTree = "<group>"; };
+		508BB9F25FE2EE6DB61090521CCC8A3C /* ep_score_topimg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@3x.png"; path = "zh-Hans.lproj/ep_score_topimg@3x.png"; sourceTree = "<group>"; };
+		52A4F3D4CFECDE35CCFB765F8D3CA7DA /* ep_navi_realnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@3x.png"; path = "zh-Hans.lproj/ep_navi_realnavi@3x.png"; sourceTree = "<group>"; };
+		5909C70C95490920CAABFDA8A8BC8B06 /* ep_navi_fakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@3x.png"; path = "zh-Hans.lproj/ep_navi_fakenavi@3x.png"; sourceTree = "<group>"; };
+		5C8C0FE12ED0D172EEC552D796B090BC /* ep_navi_arrow_go.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_go.gif; path = "zh-Hans.lproj/ep_navi_arrow_go.gif"; sourceTree = "<group>"; };
+		5CD65C6D91C3EAC96E72A4AE5233E933 /* ep_navi_arrow_go.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_go.gif; path = en.lproj/ep_navi_arrow_go.gif; sourceTree = "<group>"; };
+		5F2247368DD5B8ABA46E3A37BFE0C973 /* ep_car_sure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_sure.png; path = "zh-Hans.lproj/ep_car_sure.png"; sourceTree = "<group>"; };
+		6303A418A3401AD3DF1B3ACF02139F37 /* ep_navi_arrow_right.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_right.gif; path = en.lproj/ep_navi_arrow_right.gif; sourceTree = "<group>"; };
+		6A56466F5D637DF862DB4FB10AD4A526 /* Pods-EapthMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EapthMap_Example.modulemap"; sourceTree = "<group>"; };
+		6EE16F0D5FD62B72227E6DA1FD045702 /* ep_navi_arrow_left.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_left.gif; path = "zh-Hans.lproj/ep_navi_arrow_left.gif"; sourceTree = "<group>"; };
+		6F39BA275953FB189246CBD579A83EAC /* ep_navi_realnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_realnavi@3x.png"; path = "en.lproj/ep_navi_realnavi@3x.png"; sourceTree = "<group>"; };
+		79088ECDF7B2CA17C8EC61342D98D84A /* ep_car_refreshCarLoc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@3x.png"; path = "zh-Hans.lproj/ep_car_refreshCarLoc@3x.png"; sourceTree = "<group>"; };
+		795425AB43B87F1EB0185A63F5E42A41 /* ep_car_findCar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@3x.png"; path = "zh-Hans.lproj/ep_car_findCar@3x.png"; sourceTree = "<group>"; };
+		7BC4E29236EC7BC7A414D302541C82AB /* ep_navi_arrow_left.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_left.gif; path = en.lproj/ep_navi_arrow_left.gif; sourceTree = "<group>"; };
+		7CB0D4B8C9786080A29073B72147FB86 /* EpathMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EpathMap.xcconfig; sourceTree = "<group>"; };
+		7F00EA810486CD9041A9A665CA7F704D /* ep_car_clockIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@2x.png"; path = "zh-Hans.lproj/ep_car_clockIn@2x.png"; sourceTree = "<group>"; };
+		84B54937644A63A3AEE219F82EC637EA /* Pods-EapthMap_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EapthMap_Example-Info.plist"; sourceTree = "<group>"; };
+		84DAF044E1067D4656E73A915AC142E5 /* ep_navi_unfakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@3x.png"; path = "en.lproj/ep_navi_unfakenavi@3x.png"; sourceTree = "<group>"; };
+		84F9E341575C0F389C3ECE34E365D12B /* ep_navi_unrealnavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@3x.png"; path = "en.lproj/ep_navi_unrealnavi@3x.png"; sourceTree = "<group>"; };
+		88745FAE48512610C2DBE939380E298D /* Pods-EapthMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EapthMap_Example-dummy.m"; sourceTree = "<group>"; };
+		88D4851B292C30EA5BF911EAD08676BE /* ep_marker_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@2x.png"; path = "en.lproj/ep_marker_start@2x.png"; sourceTree = "<group>"; };
+		8BDAA697C89582BF53F83592F737DC06 /* Pods-EapthMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EapthMap_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C4818F6721A3606B115F358DD309018 /* ep_car_clockIn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@3x.png"; path = "en.lproj/ep_car_clockIn@3x.png"; sourceTree = "<group>"; };
+		8C91CAF65BAB3E088221F1C160B127B9 /* Pods_EapthMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EapthMap_Example.framework; path = "Pods-EapthMap_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4CF80D6269A39F56D04EEB96FE9457 /* ep_marker_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@3x.png"; path = "zh-Hans.lproj/ep_marker_start@3x.png"; sourceTree = "<group>"; };
+		91821E48D740840245D113286FBD31B7 /* ep_navi_goHere_big@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@3x.png"; path = "en.lproj/ep_navi_goHere_big@3x.png"; sourceTree = "<group>"; };
+		970FDACB1CC95C94C1FD4F229F407315 /* ep_marker_target@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@2x.png"; path = "zh-Hans.lproj/ep_marker_target@2x.png"; sourceTree = "<group>"; };
+		990EAB1C3EF8310065B6629843FDD13E /* EpathmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpathmapSDK.framework; path = EpathmapSDK/EpathmapSDK.framework; sourceTree = "<group>"; };
+		A8ED4D44AB000B1DB2593504E4A54A36 /* ep_home_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@2x.png"; path = "en.lproj/ep_home_logo@2x.png"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B42E530BD298932F6FB5F08112BE49EE /* ep_navi_goHere_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_goHere_big@2x.png"; path = "zh-Hans.lproj/ep_navi_goHere_big@2x.png"; sourceTree = "<group>"; };
+		B59F04A15B14B232145672E5C9E7F88C /* ep_car_findCar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@2x.png"; path = "zh-Hans.lproj/ep_car_findCar@2x.png"; sourceTree = "<group>"; };
+		B68F313BA9311C02A0CB14C906BE47B1 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		BB420BA667AD28995BC8E0E4672844CD /* ep_marker_target@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@2x.png"; path = "en.lproj/ep_marker_target@2x.png"; sourceTree = "<group>"; };
+		BCC58C92FAB0ED23208585554AAE3A20 /* ep_car_naviToCar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_naviToCar.png; path = "zh-Hans.lproj/ep_car_naviToCar.png"; sourceTree = "<group>"; };
+		BE0623D3CA16A9EC38707B433792D93B /* ep_car_findCar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_findCar@2x.png"; path = "en.lproj/ep_car_findCar@2x.png"; sourceTree = "<group>"; };
+		BE17A71F3ED4079FA925C85B904E5494 /* ep_score_topimg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_score_topimg@3x.png"; path = "en.lproj/ep_score_topimg@3x.png"; sourceTree = "<group>"; };
+		C199CA142C45DBE349D1DB67F2C65DD0 /* ep_car_endFind.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_endFind.png; path = "zh-Hans.lproj/ep_car_endFind.png"; sourceTree = "<group>"; };
+		C2AC68507D8B74BF46760724C00F4B92 /* Pods-EapthMap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EapthMap_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4E00D65657D93716E01F07E9500B8A1 /* InfoPlist.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = InfoPlist.bundle; path = Epathmap/InfoPlist.bundle; sourceTree = "<group>"; };
+		CDFDACCD7371D033F2B1566320CAB53A /* ep_navi_compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_compass@2x.png"; path = "zh-Hans.lproj/ep_navi_compass@2x.png"; sourceTree = "<group>"; };
+		CF542C017A28AF9ABA5AF950338CA593 /* ep_navi_unrealnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@2x.png"; path = "zh-Hans.lproj/ep_navi_unrealnavi@2x.png"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE66637CDBA6797304903BAA478AC9C4 /* ep_share_invite_bottom@2X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@2X.png"; path = "zh-Hans.lproj/ep_share_invite_bottom@2X.png"; sourceTree = "<group>"; };
+		E17A08F45ED945A63055A350A4FB59BD /* ep_navi_fakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@2x.png"; path = "en.lproj/ep_navi_fakenavi@2x.png"; sourceTree = "<group>"; };
+		E41E7C0335214BCE709424403ABF90C9 /* ep_navi_unfakenavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unfakenavi@2x.png"; path = "en.lproj/ep_navi_unfakenavi@2x.png"; sourceTree = "<group>"; };
+		E684B14813174A84005EC56A379293DA /* ep_car_refreshCarLoc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_refreshCarLoc@2x.png"; path = "zh-Hans.lproj/ep_car_refreshCarLoc@2x.png"; sourceTree = "<group>"; };
+		E6F33F6867C3DED61FE3000A9BFE1599 /* ep_car_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_cancel.png; path = "zh-Hans.lproj/ep_car_cancel.png"; sourceTree = "<group>"; };
+		E7FBC48F9B06E7B6F0830D634E945E66 /* Pods-EapthMap_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EapthMap_Example-resources.sh"; sourceTree = "<group>"; };
+		E8CE60F259DF1F451E79425D6CF61380 /* ep_share_invite_bottom@3X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_share_invite_bottom@3X.png"; path = "zh-Hans.lproj/ep_share_invite_bottom@3X.png"; sourceTree = "<group>"; };
+		EBC2F365F9E061990E9383252BC367FF /* ep_navi_fakenavi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_fakenavi@3x.png"; path = "en.lproj/ep_navi_fakenavi@3x.png"; sourceTree = "<group>"; };
+		EC55DCD8F28B224F051F39FD661DFC19 /* ep_navi_compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_compass@2x.png"; path = "en.lproj/ep_navi_compass@2x.png"; sourceTree = "<group>"; };
+		EFE0D66B0D69843A912A310792162D13 /* ep_car_clockIn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_car_clockIn@3x.png"; path = "zh-Hans.lproj/ep_car_clockIn@3x.png"; sourceTree = "<group>"; };
+		F1348ADF883929B4330BFB310E52FF6B /* ep_car_endFind.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ep_car_endFind.png; path = en.lproj/ep_car_endFind.png; sourceTree = "<group>"; };
+		F21537D9CF2879B1E604DB519D21C7E3 /* ep_home_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@2x.png"; path = "zh-Hans.lproj/ep_home_logo@2x.png"; sourceTree = "<group>"; };
+		F31390F582DB5D56095329980B3B6530 /* ep_home_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_home_logo@3x.png"; path = "zh-Hans.lproj/ep_home_logo@3x.png"; sourceTree = "<group>"; };
+		F93663FB07A408403AFB4BBC1E5E79EF /* ep_navi_arrow_right.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ep_navi_arrow_right.gif; path = "zh-Hans.lproj/ep_navi_arrow_right.gif"; sourceTree = "<group>"; };
+		F9DA34684D9A2FE3E04D16A3156EFC83 /* ep_marker_target@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_target@3x.png"; path = "zh-Hans.lproj/ep_marker_target@3x.png"; sourceTree = "<group>"; };
+		FB824B0355E308A7DE3E8A36D5D59B74 /* ep_marker_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_marker_start@3x.png"; path = "en.lproj/ep_marker_start@3x.png"; sourceTree = "<group>"; };
+		FF6D42AF803AF7336184BA7D28961BA0 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.3/libWeChatSDK.a; sourceTree = "<group>"; };
+		FF851893240D8AE6422111132CC66A0F /* ep_navi_unrealnavi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ep_navi_unrealnavi@2x.png"; path = "en.lproj/ep_navi_unrealnavi@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47509A428E00290CD0E9AB28DD4568E7 /* Frameworks */ = {
+		EE0F3EF33A1EEE772CAA18E50222BFB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E9E126F250AD55E53FABF228F877E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEE5762690AC26B6C85CCD4CEC7AFAC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E688D3ED30BD11EB579AD66D03EB486 /* AddressBook.framework in Frameworks */,
-				A699FBC9B2D559096EE1A6D672ABFF8C /* AudioToolbox.framework in Frameworks */,
-				BF20460134497F748D4329DEC2504319 /* AVFoundation.framework in Frameworks */,
-				51D4E3C6800F8035DD8CF0F3D2E732A7 /* CoreGraphics.framework in Frameworks */,
-				C997F7C190CE5D838377366880B38410 /* CoreLocation.framework in Frameworks */,
-				97058CC02A368C9B0486FE3559E7B44B /* CoreTelephony.framework in Frameworks */,
-				9AE846F8DBDCB5D05754204C090FFE19 /* Foundation.framework in Frameworks */,
-				5C197C0584B353B2C2E18F78111DF06F /* QuartzCore.framework in Frameworks */,
-				33D49D4FD2C6D58EDDB6677FE78AB678 /* SystemConfiguration.framework in Frameworks */,
-				FA8BC8F840E138A6C96C153AB86C43C8 /* UIKit.framework in Frameworks */,
+				E35EFA9AF2C44545BD59B936B0C1E89C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1356E3B3E55B6E54D4FFD76D2829ACA6 /* Support Files */ = {
+		1B0454D63860CDD4F923D3A4B38F2AF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				13C1338F9E74DC334E175BF2B1429FEF /* EpathMap.modulemap */,
-				ED95EC5C6890CEEA6B34AD22C51E7FE9 /* EpathMap.xcconfig */,
-				200B7D757F167E3788C0E75095ED224C /* EpathMap-dummy.m */,
-				C35CB94E65E46407A45F076C1A8765F3 /* EpathMap-prefix.pch */,
-				E9D959D28CCB46BE0EA20CE7C751005C /* EpathMap-umbrella.h */,
-				97E25EF53D78E93D4EF8ABDA7ADB3E03 /* Info.plist */,
+				FF6D42AF803AF7336184BA7D28961BA0 /* libWeChatSDK.a */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EpathMap";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		733D25444969DFB6E215116BEFD0AEB0 /* Resources */ = {
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9E854D0D6E7B0844B8ED2B17CCD76FB /* EpathmapSDK.xcassets */,
-				CAF62213F6923D55A45D17AFD6FD81B6 /* EpathmapSDKImage */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		73E4DA0503909D12A864929792194B49 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				349EE189E9791DE7C862BFA9370AB449 /* AddressBook.framework */,
-				F8FF8FE098242E117E5361F8970BFDAC /* AudioToolbox.framework */,
-				A5E6EC768A1EB513F1E2E2CBE8041A81 /* AVFoundation.framework */,
-				95D9713788E188CAD39906021C0B6C38 /* CoreGraphics.framework */,
-				E670CF8053246D275355FCD1193E4BA8 /* CoreLocation.framework */,
-				3D32C8920C30BE15E1304A0E6F89F37B /* CoreTelephony.framework */,
-				6496DEAAE4C607EB4D1395C34887FD1B /* Foundation.framework */,
-				056227BF67991DF730F46C5FC1FD0097 /* QuartzCore.framework */,
-				CE59167F9F114DB87F6185F51F51A995 /* SystemConfiguration.framework */,
-				EB7BBE7B5F1DE2EA9F799DCDEE2834A3 /* UIKit.framework */,
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7ADA45F435BB210C822629C0D9B54295 /* Pods */ = {
+		4AEEA02B1B90A5916BC6D7D7D33FB34B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B37557304B990AF0FE45AB23864CB362 /* WechatOpenSDK */,
+				990EAB1C3EF8310065B6629843FDD13E /* EpathmapSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5897C112996A3F0ACB9836C839BCD0D0 /* Pods-EapthMap_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A56466F5D637DF862DB4FB10AD4A526 /* Pods-EapthMap_Example.modulemap */,
+				3531EE5C6804540B6F500F53718E1624 /* Pods-EapthMap_Example-acknowledgements.markdown */,
+				1E0D810BB5792E3FF449975479EBD88D /* Pods-EapthMap_Example-acknowledgements.plist */,
+				88745FAE48512610C2DBE939380E298D /* Pods-EapthMap_Example-dummy.m */,
+				3BAD9D39CDBACC4B859DF9CC6FC6D3D7 /* Pods-EapthMap_Example-frameworks.sh */,
+				84B54937644A63A3AEE219F82EC637EA /* Pods-EapthMap_Example-Info.plist */,
+				E7FBC48F9B06E7B6F0830D634E945E66 /* Pods-EapthMap_Example-resources.sh */,
+				8BDAA697C89582BF53F83592F737DC06 /* Pods-EapthMap_Example-umbrella.h */,
+				201055D2BE6629FCED4D31169DDD25C1 /* Pods-EapthMap_Example.debug.xcconfig */,
+				C2AC68507D8B74BF46760724C00F4B92 /* Pods-EapthMap_Example.release.xcconfig */,
+			);
+			name = "Pods-EapthMap_Example";
+			path = "Target Support Files/Pods-EapthMap_Example";
+			sourceTree = "<group>";
+		};
+		61B1B9121E07152CA95B54ED4540DB52 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				03B5DF7D2F4B907B74E6FBCF078F29B8 /* WechatAuthSDK.h */,
+				3243B4AA7E23350DE3EE250D0B0D5133 /* WXApi.h */,
+				1E7C017F8EFFA9CDE24687B06CC404B4 /* WXApiObject.h */,
+				1B0454D63860CDD4F923D3A4B38F2AF9 /* Frameworks */,
+				CCE84482FE8E29A08828694558EF5850 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		726A70764794088512CFB801F91CBB7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4E00D65657D93716E01F07E9500B8A1 /* InfoPlist.bundle */,
+				729EAEDA77049B2EC7801E8A2B681D41 /* EpathmapSDKImage */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		729EAEDA77049B2EC7801E8A2B681D41 /* EpathmapSDKImage */ = {
+			isa = PBXGroup;
+			children = (
+				7428005ED092C9BE180F8F0348131572 /* ep_car_cancel.png */,
+				F0047636DD540F05CBAEF57793112581 /* ep_car_clockIn@2x.png */,
+				43724ACA50B8B1CC2A351D1DECDDE600 /* ep_car_clockIn@3x.png */,
+				3D408638B31493D7C2B1FF66C7C875EA /* ep_car_endFind.png */,
+				2CAB233DC9667CDC627A5ADD3DAB71A0 /* ep_car_findCar@2x.png */,
+				A2B73F51B000EF6343ED0FAD22F31ED2 /* ep_car_findCar@3x.png */,
+				D419047B5D2D3C84BDF87D26C18AD02D /* ep_car_naviToCar.png */,
+				76762D8AA1A1E912EB8F6907FBC595D7 /* ep_car_refreshCarLoc@2x.png */,
+				68023C839F03DDE2DACACA2CBC7AF678 /* ep_car_refreshCarLoc@3x.png */,
+				5FB89EC679E7696DBB9DC1CE75709C40 /* ep_car_sure.png */,
+				EE07AE2DC60F341E24972EE1FE38EA07 /* ep_home_logo@2x.png */,
+				02028DCF2BA47C878BBFC3744BAF6E11 /* ep_home_logo@3x.png */,
+				5B603DEE59622A5EFC9459E2CB5626B3 /* ep_marker_start@2x.png */,
+				A6A1516D9545C97661A739A5F8C9C635 /* ep_marker_start@3x.png */,
+				7C113F1EAC77694716C21537261EF212 /* ep_marker_target@2x.png */,
+				7A89886590830369955C42554843013A /* ep_marker_target@3x.png */,
+				EB08F90FA2FAAC6475687BD26FFB6C1D /* ep_navi_arrow_go.gif */,
+				C9574D6F22EAF711F29AF4837EDDFBDF /* ep_navi_arrow_left.gif */,
+				D1EBC6AC20325996B4C7658C48D5949F /* ep_navi_arrow_right.gif */,
+				87D62F8F4241C10894DA5A452AF37393 /* ep_navi_compass@2x.png */,
+				3D250EB3CB4BDF21DBDAA64319F4443A /* ep_navi_fakenavi@2x.png */,
+				EB01BF3D319DFDAE87FD708B9E14088A /* ep_navi_fakenavi@3x.png */,
+				C1C6388BCE72F4B65FB62A8F9E5C396A /* ep_navi_goHere_big@2x.png */,
+				A9A14A36D5D7F25111326148D1FC81C4 /* ep_navi_goHere_big@3x.png */,
+				60DEF68A81435F13098A42E9D90CAC67 /* ep_navi_realnavi@2x.png */,
+				C70AB32C425C0ED4E1CB808C722D724A /* ep_navi_realnavi@3x.png */,
+				13281960971A8104EC0ACD804F8DCEDE /* ep_navi_unfakenavi@2x.png */,
+				ACC8658D48BF0391535DD9D82D12C5F4 /* ep_navi_unfakenavi@3x.png */,
+				A1EF96BCCB53ECA6102B22E14CCFF7AF /* ep_navi_unrealnavi@2x.png */,
+				E31AA9A7A52CE3E90B424A4571DBD5C8 /* ep_navi_unrealnavi@3x.png */,
+				F65E37B43CCEC0BE5FEA8DA7DD8A9C03 /* ep_score_topimg@2x.png */,
+				BB3DF3CB78DC6F28C14CB1B5592E6E2F /* ep_score_topimg@3x.png */,
+				88ED061411E6C5891E01C704A759F8C5 /* ep_share_invite_bottom@2X.png */,
+				F2228849D894DE570A34C73B147BCF1D /* ep_share_invite_bottom@3X.png */,
+			);
+			name = EpathmapSDKImage;
+			path = Epathmap/EpathmapSDKImage;
+			sourceTree = "<group>";
+		};
+		740FAA9C1666D5789130A4450E2038D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61B1B9121E07152CA95B54ED4540DB52 /* WechatOpenSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -260,215 +273,119 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				95632F578D8E7838E2F31883E17D837E /* Development Pods */,
-				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
-				7ADA45F435BB210C822629C0D9B54295 /* Pods */,
-				FACD89161232B44977079510FCCFD4A2 /* Products */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				AD8DB4DEF8E3D97E0DDE923A9F43A224 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				740FAA9C1666D5789130A4450E2038D7 /* Pods */,
+				BC2DFC3C2AB64B6DF94D9395C3802D05 /* Products */,
 				9E8F9A99AB024FBFFBFE78C54DDD2EFB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73E4DA0503909D12A864929792194B49 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		902D4538E1885C694BF2300B0971350F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F487EDDE613757E4E7EEE7D2423905A4 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		95632F578D8E7838E2F31883E17D837E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9A5ED5ABC4BD0F6384057AC5B2538E5 /* EpathMap */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9E8F9A99AB024FBFFBFE78C54DDD2EFB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F40C4004DA64F94D968D0A41CB99E951 /* Pods-EapthMap_Example */,
+				5897C112996A3F0ACB9836C839BCD0D0 /* Pods-EapthMap_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B24F938C8A9DE95FF3AC1C80935B84E4 /* Frameworks */ = {
+		AD8DB4DEF8E3D97E0DDE923A9F43A224 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3376E4AF07A4AFDD26DB72AE835372A9 /* EpathmapSDK.framework */,
+				D3B1131AEB3EFCC6333C0433766CF95F /* EpathMap */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC2DFC3C2AB64B6DF94D9395C3802D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C91CAF65BAB3E088221F1C160B127B9 /* Pods_EapthMap_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B37557304B990AF0FE45AB23864CB362 /* WechatOpenSDK */ = {
+		C7FEAFF1AF12C8B79F19DB69BA389860 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0785FBE2B0F16BBFCA8B5D142C2570B2 /* WechatAuthSDK.h */,
-				F38E869CA6BEA91EA9BEAF811640E960 /* WXApi.h */,
-				DF6F48A794D5A5C6D096B964C6BFE1A7 /* WXApiObject.h */,
-				902D4538E1885C694BF2300B0971350F /* Frameworks */,
+				28FAD1EE42838CEB0DBDB953AF82770F /* EpathMap.podspec */,
+				1A85E00AD23571540984AFEB019A8535 /* LICENSE */,
+				0E47C1EF955E72A273A1BF2C2D717E27 /* README.md */,
 			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		B9A5ED5ABC4BD0F6384057AC5B2538E5 /* EpathMap */ = {
+		CCE84482FE8E29A08828694558EF5850 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9827A998EDF942D7B7141D0CCCCEC807 /* InfoPlist.strings */,
-				338D1DC5E6A50A16B9EEC95F5F60E111 /* LaunchScreen.strings */,
-				B24F938C8A9DE95FF3AC1C80935B84E4 /* Frameworks */,
-				BE7CE4CE8372CE92FB4D11BC42842987 /* Pod */,
-				733D25444969DFB6E215116BEFD0AEB0 /* Resources */,
-				1356E3B3E55B6E54D4FFD76D2829ACA6 /* Support Files */,
+				B68F313BA9311C02A0CB14C906BE47B1 /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		D3B1131AEB3EFCC6333C0433766CF95F /* EpathMap */ = {
+			isa = PBXGroup;
+			children = (
+				4AEEA02B1B90A5916BC6D7D7D33FB34B /* Frameworks */,
+				C7FEAFF1AF12C8B79F19DB69BA389860 /* Pod */,
+				726A70764794088512CFB801F91CBB7A /* Resources */,
+				FC14984485321B72ACFF896397F165EB /* Support Files */,
 			);
 			name = EpathMap;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BE7CE4CE8372CE92FB4D11BC42842987 /* Pod */ = {
+		FC14984485321B72ACFF896397F165EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D1AD966039A8B402FC45479C476128B /* EpathMap.podspec */,
-				1A02A3456D9471C881192D5B94C4F929 /* LICENSE */,
-				1249557E3B89E6298F47D3ADA781C884 /* README.md */,
+				7CB0D4B8C9786080A29073B72147FB86 /* EpathMap.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CAF62213F6923D55A45D17AFD6FD81B6 /* EpathmapSDKImage */ = {
-			isa = PBXGroup;
-			children = (
-				FE2233BE2DA1E3B385178B13631E77FA /* ep_car_cancel.png */,
-				03485880B044465AF56FDA21000C0E6C /* ep_car_cancel.png.png */,
-				3E9FBE7E02761CE43BE600F9DCC9AD9B /* ep_car_clockIn@2x.png */,
-				5B3B314C3DEE4CCC6FCB14A4EF693638 /* ep_car_clockIn@3x.png */,
-				E85D21EA728BFCD4C9FF1F6E4E1A5E17 /* ep_car_endFind.png */,
-				32DDE02CAE4BBC00252984B825D83C82 /* ep_car_findCar@2x.png */,
-				39967D0CA8BBF3EA5D1A14759E523F24 /* ep_car_findCar@3x.png */,
-				5F3CEEC1CC9807054FCE018BD612A408 /* ep_car_naviToCar.png */,
-				9BC26DB56A49A3AE43E485306EEBC497 /* ep_car_refreshCarLoc@2x.png */,
-				FAF218610AD5F583E1DBA2ACDDA353F9 /* ep_car_refreshCarLoc@3x.png */,
-				938ACBC7BECF7AAF734CF8684A528590 /* ep_car_sure.png */,
-				87FF2F2717BB23EA92AF8376452322CD /* ep_home_logo@2x.png */,
-				36693209774F0865AFDE96B411CDB2FA /* ep_home_logo@3x.png */,
-				DBCE52C9A8605D94139C187F5BAFAA01 /* ep_marker_start@2x.png */,
-				A732E800F238272B14C9B9CF35EC2D35 /* ep_marker_start@3x.png */,
-				E594D1B148E78A9DE05371CDFA3039FE /* ep_marker_target@2x.png */,
-				35B8B7A779C1764BA8569AB6C4C4E19C /* ep_marker_target@3x.png */,
-				C3B6EA89922AF7E08F030E307E1BBF0F /* ep_navi_compass@2x.png */,
-				62178A327556069B26FF6509750A49FC /* ep_navi_fakenavi@2x.png */,
-				165770660C7DDD3166827CEF636DF8F6 /* ep_navi_fakenavi@3x.png */,
-				5981A1C929B91F46725DB38767D73BC9 /* ep_navi_goHere_big@2x.png */,
-				C2D589F6E6708EB3503C995CF2AC3674 /* ep_navi_goHere_big@3x.png */,
-				66DB4C2FFB4CF2C1CCD8ACFCDD74D0B4 /* ep_navi_realnavi@2x.png */,
-				805BD0B415D974CA4FC1DD987B03063B /* ep_navi_realnavi@3x.png */,
-				98C9574FB1ABF51A98E6C9A87D4B359C /* ep_navi_unfakenavi@2x.png */,
-				7DC9BF7730858F9985B8C8EF036CC605 /* ep_navi_unfakenavi@3x.png */,
-				5E6B32A22F5E24D30EE5CA578A49D398 /* ep_navi_unrealnavi@2x.png */,
-				AB679C580B975FDA78DC78CE0DD269C2 /* ep_navi_unrealnavi@3x.png */,
-				546AB71A1F50E2121232BD3E1266BC1D /* ep_score_topimg@2x.png */,
-				54FC8D49EDF56C2ACFF57D152AA86DEA /* ep_score_topimg@3x.png */,
-				4CC3CB7A1681CD62146D4B236CCFB4BB /* ep_share_invite_bottom@2X.png */,
-				8970C05B5F3AB2C05BFF23D1999B8E2D /* ep_share_invite_bottom@3X.png */,
-			);
-			name = EpathmapSDKImage;
-			path = EpathmapSDKImage;
-			sourceTree = "<group>";
-		};
-		F40C4004DA64F94D968D0A41CB99E951 /* Pods-EapthMap_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E849A7B0E08DD64824265644F1E9EB6B /* Info.plist */,
-				9FED5D044E66C73A7A3D62D73B71D962 /* Pods-EapthMap_Example.modulemap */,
-				F9C8C76DBA09FBF4AEA97A1D46E1284B /* Pods-EapthMap_Example-acknowledgements.markdown */,
-				3F6F34173ABC8063E527F9DF33E8B804 /* Pods-EapthMap_Example-acknowledgements.plist */,
-				8F2B0B77416EA871931AD0C73198CCE9 /* Pods-EapthMap_Example-dummy.m */,
-				1FBA266A6AA2CD7C0BE2082D95EA76D3 /* Pods-EapthMap_Example-frameworks.sh */,
-				0753E20F50AB2DEBC72F20E673256BAD /* Pods-EapthMap_Example-resources.sh */,
-				E82C59CF0C26AD6183BB1F8123AD394B /* Pods-EapthMap_Example-umbrella.h */,
-				0DBBB2ECBEBE3A0190763D713F4C35B2 /* Pods-EapthMap_Example.debug.xcconfig */,
-				B3DCEF1A433132795993EBDFB116842C /* Pods-EapthMap_Example.release.xcconfig */,
-			);
-			name = "Pods-EapthMap_Example";
-			path = "Target Support Files/Pods-EapthMap_Example";
-			sourceTree = "<group>";
-		};
-		FACD89161232B44977079510FCCFD4A2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A05E343532451C2C4DC2461A06007DFD /* EpathMap.framework */,
-				34DE17657B0C7347648790105FA88355 /* Pods_EapthMap_Example.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EpathMap";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C3BE30ED49C05DE8E28F0820FB300B7E /* Headers */ = {
+		138734CB6F3D9D31B94F41D31DB0B911 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFED1112451B0F2F7EA27497332F96D5 /* EpathMap-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF25705CC348E0CB93E325CA308933B5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F9524F7074A85F438F7E61F4286FE7 /* Pods-EapthMap_Example-umbrella.h in Headers */,
+				28F7D00477D697B67A3A493227A17556 /* Pods-EapthMap_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		758C49AD7B11A3052FB529291E34C426 /* EpathMap */ = {
+		A642B0C7D78C2360A8EE399BCF64A3C3 /* Pods-EapthMap_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3467BADE834CEA7DC6C809489D960E1D /* Build configuration list for PBXNativeTarget "EpathMap" */;
+			buildConfigurationList = AB0FAB6BD75B7C9B0B83F427698D5F48 /* Build configuration list for PBXNativeTarget "Pods-EapthMap_Example" */;
 			buildPhases = (
-				C3BE30ED49C05DE8E28F0820FB300B7E /* Headers */,
-				6D1A919CF423FBA1CEA82F06F37642B2 /* Sources */,
-				EEE5762690AC26B6C85CCD4CEC7AFAC3 /* Frameworks */,
-				89ECF02CCBA7BFFD40C104F2F41BEE08 /* Resources */,
+				138734CB6F3D9D31B94F41D31DB0B911 /* Headers */,
+				9FDA48D38A12F4E5B91AB19F0BCE9128 /* Sources */,
+				EE0F3EF33A1EEE772CAA18E50222BFB4 /* Frameworks */,
+				35CD55CA4EAB1E21DE3B8597BBF0481B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = EpathMap;
-			productName = EpathMap;
-			productReference = A05E343532451C2C4DC2461A06007DFD /* EpathMap.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9145A4DBD7FEF8645A031EE633430B8E /* Pods-EapthMap_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92F27C837293EAD7F6BFBC00378A7D4D /* Build configuration list for PBXNativeTarget "Pods-EapthMap_Example" */;
-			buildPhases = (
-				EF25705CC348E0CB93E325CA308933B5 /* Headers */,
-				67B42BE4ABB0B66EE5E0B47DDC92A24D /* Sources */,
-				47509A428E00290CD0E9AB28DD4568E7 /* Frameworks */,
-				65093579437390CA87827849CC6AB0EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79324692C2829EDD9C1A241EF49C6AF1 /* PBXTargetDependency */,
+				28C37BB5F2EE45AD956F001DB53F2ABE /* PBXTargetDependency */,
+				1A590C624A10AFE261E93B6F33720E63 /* PBXTargetDependency */,
 			);
 			name = "Pods-EapthMap_Example";
 			productName = "Pods-EapthMap_Example";
-			productReference = 34DE17657B0C7347648790105FA88355 /* Pods_EapthMap_Example.framework */;
+			productReference = 8C91CAF65BAB3E088221F1C160B127B9 /* Pods_EapthMap_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -488,445 +405,399 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FACD89161232B44977079510FCCFD4A2 /* Products */;
+			productRefGroup = BC2DFC3C2AB64B6DF94D9395C3802D05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				758C49AD7B11A3052FB529291E34C426 /* EpathMap */,
-				9145A4DBD7FEF8645A031EE633430B8E /* Pods-EapthMap_Example */,
+				01B198C61AACBA0D3A516A68068A3C18 /* EpathMap */,
+				A642B0C7D78C2360A8EE399BCF64A3C3 /* Pods-EapthMap_Example */,
+				149CB603BFFE3FFDFD3C8C2D818CDE52 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65093579437390CA87827849CC6AB0EE /* Resources */ = {
+		35CD55CA4EAB1E21DE3B8597BBF0481B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89ECF02CCBA7BFFD40C104F2F41BEE08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16964BBBA0650867F916865FC972EB9C /* ep_car_cancel.png in Resources */,
-				A0243FE218BDEA0A2622BC7D47B61244 /* ep_car_cancel.png.png in Resources */,
-				EB512F4B8A82C09E38562F23C454DEFE /* ep_car_clockIn@2x.png in Resources */,
-				A947233A2B67E6400D3EF7A349B960E9 /* ep_car_clockIn@3x.png in Resources */,
-				70CBAA76E67DB956DDE2B56335BE6E26 /* ep_car_endFind.png in Resources */,
-				1FA635A840E6C3AFB85D9E9E6C1CB750 /* ep_car_findCar@2x.png in Resources */,
-				D14F68B61AA259732FC3D882FA99459D /* ep_car_findCar@3x.png in Resources */,
-				342B965E3BF51649CBC0CC18B9982C0C /* ep_car_naviToCar.png in Resources */,
-				F74E1A699DB3CB0DBEF3521047D5D0C7 /* ep_car_refreshCarLoc@2x.png in Resources */,
-				1DEB3A524975D0084678544E5E45555C /* ep_car_refreshCarLoc@3x.png in Resources */,
-				51D1C90D5329288EE01551BB174F0EE2 /* ep_car_sure.png in Resources */,
-				E553B5A078CB1648A98085E21BD35FE8 /* ep_home_logo@2x.png in Resources */,
-				60812CF9E72256CC99E467A90471F4F7 /* ep_home_logo@3x.png in Resources */,
-				87553E213AFED1B2784D71E4E2C72DF1 /* ep_marker_start@2x.png in Resources */,
-				D4C33D9D71EEE171D93FC6CC1B6D428D /* ep_marker_start@3x.png in Resources */,
-				1D1DF297565C11C5D0A3255710900619 /* ep_marker_target@2x.png in Resources */,
-				F2963EDE8E4AA2AB7A2974E1601F389F /* ep_marker_target@3x.png in Resources */,
-				42560851348F7D1B6BACBC64C2292A9A /* ep_navi_compass@2x.png in Resources */,
-				B3C5CC06E089798B7F2F56D9B08C850F /* ep_navi_fakenavi@2x.png in Resources */,
-				4824506B7BBFC6130020BD86D434EE1B /* ep_navi_fakenavi@3x.png in Resources */,
-				454D328EA316C9E592EEFD374B6E268C /* ep_navi_goHere_big@2x.png in Resources */,
-				399EA3D3ED02649D4F46FFA40E21D87C /* ep_navi_goHere_big@3x.png in Resources */,
-				FF2690DFCF7B54AC96B1EFFAF1717B90 /* ep_navi_realnavi@2x.png in Resources */,
-				A56721A3BCF648F92ED28765DD0B6440 /* ep_navi_realnavi@3x.png in Resources */,
-				B45B329465CF966687FAB1F8A26E5736 /* ep_navi_unfakenavi@2x.png in Resources */,
-				0515045F7591BB257D2614091F314703 /* ep_navi_unfakenavi@3x.png in Resources */,
-				38A9511AAD534275BE853153551D60A1 /* ep_navi_unrealnavi@2x.png in Resources */,
-				79BCF4F26758D867D85C68B39692F3D8 /* ep_navi_unrealnavi@3x.png in Resources */,
-				4BEA3DC7643DA323A5F2F2BA40A24A43 /* ep_score_topimg@2x.png in Resources */,
-				C06A678E18458E5B04B399EA0241C948 /* ep_score_topimg@3x.png in Resources */,
-				F1FC99EC4A5F7F85A6353047B8EF4006 /* ep_share_invite_bottom@2X.png in Resources */,
-				CB5C23F96D9998302769C77E0C09A48B /* ep_share_invite_bottom@3X.png in Resources */,
-				662A2DFB371E61EBA2E6F653FD124648 /* EpathmapSDK.framework in Resources */,
-				7BBA9A787F622A0A6511A56DB7AA5220 /* EpathmapSDK.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67B42BE4ABB0B66EE5E0B47DDC92A24D /* Sources */ = {
+		9FDA48D38A12F4E5B91AB19F0BCE9128 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF65013DAEFF44BB001FF2E405028211 /* Pods-EapthMap_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D1A919CF423FBA1CEA82F06F37642B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB322C4EDB596C12D5101B3057052EEE /* EpathMap-dummy.m in Sources */,
-				D0210234E01002A887C1ABF222AA2267 /* InfoPlist.strings in Sources */,
-				20A3A906101B9201D68B44862624C0C3 /* InfoPlist.strings in Sources */,
-				9E21CADB6E6520CD38EA47D311F0C9D5 /* LaunchScreen.strings in Sources */,
-				03717E3727629CD2E76CD7B6701AFF3B /* LaunchScreen.strings in Sources */,
+				293103AB26548F2A47F260F492106483 /* Pods-EapthMap_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79324692C2829EDD9C1A241EF49C6AF1 /* PBXTargetDependency */ = {
+		1A590C624A10AFE261E93B6F33720E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 149CB603BFFE3FFDFD3C8C2D818CDE52 /* WechatOpenSDK */;
+			targetProxy = 72998761975261150F239DF2E9C25536 /* PBXContainerItemProxy */;
+		};
+		28C37BB5F2EE45AD956F001DB53F2ABE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EpathMap;
-			target = 758C49AD7B11A3052FB529291E34C426 /* EpathMap */;
-			targetProxy = 8E22E990E0CBDB93B293CA7E595C290A /* PBXContainerItemProxy */;
+			target = 01B198C61AACBA0D3A516A68068A3C18 /* EpathMap */;
+			targetProxy = 8AF5DDF54052E4D84544B73EAFFC4E8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03485880B044465AF56FDA21000C0E6C /* ep_car_cancel.png.png */ = {
+		02028DCF2BA47C878BBFC3744BAF6E11 /* ep_home_logo@3x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCBBA7CFF731A2A659B5B6B0FEEE1BD4 /* ep_car_cancel.png.png */,
-				0C79613AB5FF329CCA885874002B7D7A /* ep_car_cancel.png.png */,
-			);
-			name = ep_car_cancel.png.png;
-			path = .;
-			sourceTree = "<group>";
-		};
-		165770660C7DDD3166827CEF636DF8F6 /* ep_navi_fakenavi@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				701F421A3F266B2BE1FC6C21484B0876 /* ep_navi_fakenavi@3x.png */,
-				5CFFF81220C451122ABA62C8B7CA083B /* ep_navi_fakenavi@3x.png */,
-			);
-			name = "ep_navi_fakenavi@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		32DDE02CAE4BBC00252984B825D83C82 /* ep_car_findCar@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89ECA57FBF3ED336E4238BA05B788D3F /* ep_car_findCar@2x.png */,
-				1BABD9DB7CD8FA22D4C3FFF81FF1F62D /* ep_car_findCar@2x.png */,
-			);
-			name = "ep_car_findCar@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		338D1DC5E6A50A16B9EEC95F5F60E111 /* LaunchScreen.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A93EF340DF6444F71F7A99292FE129A8 /* LaunchScreen.strings */,
-				A9C4A14E30D54BC4A3EB0B2AD8978ADC /* LaunchScreen.strings */,
-			);
-			name = LaunchScreen.strings;
-			path = Epathmap/InfoPlist.bundle;
-			sourceTree = "<group>";
-		};
-		35B8B7A779C1764BA8569AB6C4C4E19C /* ep_marker_target@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DE465A1A127688578084AB9732CBF7F /* ep_marker_target@3x.png */,
-				211D70A093FB23681869AFAC6A6CAB74 /* ep_marker_target@3x.png */,
-			);
-			name = "ep_marker_target@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		36693209774F0865AFDE96B411CDB2FA /* ep_home_logo@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0A0D729DAFD3DF570463863196C76B6 /* ep_home_logo@3x.png */,
-				6203ADCB6AC429259B208065D50A9319 /* ep_home_logo@3x.png */,
+				0D2D3A2F222EA033853080B53E0D635A /* ep_home_logo@3x.png */,
+				F31390F582DB5D56095329980B3B6530 /* ep_home_logo@3x.png */,
 			);
 			name = "ep_home_logo@3x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
-		39967D0CA8BBF3EA5D1A14759E523F24 /* ep_car_findCar@3x.png */ = {
+		13281960971A8104EC0ACD804F8DCEDE /* ep_navi_unfakenavi@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88C60E019523D5559870CCE159516704 /* ep_car_findCar@3x.png */,
-				3576581511D8425C336451158ADCDA54 /* ep_car_findCar@3x.png */,
-			);
-			name = "ep_car_findCar@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		3E9FBE7E02761CE43BE600F9DCC9AD9B /* ep_car_clockIn@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1211B041C086B7CF7D5D2C4D6C05BB6 /* ep_car_clockIn@2x.png */,
-				E9727D2F71C848B8F056E1CC990325E0 /* ep_car_clockIn@2x.png */,
-			);
-			name = "ep_car_clockIn@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		4CC3CB7A1681CD62146D4B236CCFB4BB /* ep_share_invite_bottom@2X.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC8661014809E84719089B3E771E09EA /* ep_share_invite_bottom@2X.png */,
-				5C908468C847373A3659DB84F572F8CB /* ep_share_invite_bottom@2X.png */,
-			);
-			name = "ep_share_invite_bottom@2X.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		546AB71A1F50E2121232BD3E1266BC1D /* ep_score_topimg@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC8AD317CE74F5E58F51AA3EA6DC00AD /* ep_score_topimg@2x.png */,
-				AFD37C01EF7E48D83E053F74EBE3CBF0 /* ep_score_topimg@2x.png */,
-			);
-			name = "ep_score_topimg@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		54FC8D49EDF56C2ACFF57D152AA86DEA /* ep_score_topimg@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3800F8EDD5B0C14C52C7B9458048E9D3 /* ep_score_topimg@3x.png */,
-				884246EC2DAFE4A3EFBE76341D94C0A6 /* ep_score_topimg@3x.png */,
-			);
-			name = "ep_score_topimg@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		5981A1C929B91F46725DB38767D73BC9 /* ep_navi_goHere_big@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7164C9BB9089CCCC25A3E6706D9E32D /* ep_navi_goHere_big@2x.png */,
-				6BC90FFB92A61EF9A951B55909DCBC25 /* ep_navi_goHere_big@2x.png */,
-			);
-			name = "ep_navi_goHere_big@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		5B3B314C3DEE4CCC6FCB14A4EF693638 /* ep_car_clockIn@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F62A003413C4AD0B0A9FB91E78161A /* ep_car_clockIn@3x.png */,
-				5C3D2BF681C2073B630A6134505EADD0 /* ep_car_clockIn@3x.png */,
-			);
-			name = "ep_car_clockIn@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		5E6B32A22F5E24D30EE5CA578A49D398 /* ep_navi_unrealnavi@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FADBCDDA0EEB144F1C0B213B7E18FB76 /* ep_navi_unrealnavi@2x.png */,
-				55F0F769019D25DC843724F05C82927C /* ep_navi_unrealnavi@2x.png */,
-			);
-			name = "ep_navi_unrealnavi@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		5F3CEEC1CC9807054FCE018BD612A408 /* ep_car_naviToCar.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0D8D5F992149E24D218CADA56EF5388 /* ep_car_naviToCar.png */,
-				71A931BBC09F8E3AB0C935739983B3E3 /* ep_car_naviToCar.png */,
-			);
-			name = ep_car_naviToCar.png;
-			path = .;
-			sourceTree = "<group>";
-		};
-		62178A327556069B26FF6509750A49FC /* ep_navi_fakenavi@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF5782BFA1C3FBA1E96031A57F130337 /* ep_navi_fakenavi@2x.png */,
-				06BFD58D9816FADCAC5F78BE1BBB793F /* ep_navi_fakenavi@2x.png */,
-			);
-			name = "ep_navi_fakenavi@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		66DB4C2FFB4CF2C1CCD8ACFCDD74D0B4 /* ep_navi_realnavi@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				305780C64CD2FF114A795CD35E2FEE43 /* ep_navi_realnavi@2x.png */,
-				916C0E18DE64E9E337876A557B8A932C /* ep_navi_realnavi@2x.png */,
-			);
-			name = "ep_navi_realnavi@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		7DC9BF7730858F9985B8C8EF036CC605 /* ep_navi_unfakenavi@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884BD4E420865223A1283C29F3D0B10D /* ep_navi_unfakenavi@3x.png */,
-				37D40B144C8D17EEB4D0F8548347BDD0 /* ep_navi_unfakenavi@3x.png */,
-			);
-			name = "ep_navi_unfakenavi@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		805BD0B415D974CA4FC1DD987B03063B /* ep_navi_realnavi@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC64B4EB3B514CA66FD3C69572439FF8 /* ep_navi_realnavi@3x.png */,
-				8E3F3C7F846638AC86B7CE6D567EE1D5 /* ep_navi_realnavi@3x.png */,
-			);
-			name = "ep_navi_realnavi@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		87FF2F2717BB23EA92AF8376452322CD /* ep_home_logo@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				437B0572D756B1C44618D7C85C424A83 /* ep_home_logo@2x.png */,
-				E1AE1CFBEAEB5584371E1F5D28C7E2F9 /* ep_home_logo@2x.png */,
-			);
-			name = "ep_home_logo@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		8970C05B5F3AB2C05BFF23D1999B8E2D /* ep_share_invite_bottom@3X.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80FB91425B4EBCE7A7D48A216454EA43 /* ep_share_invite_bottom@3X.png */,
-			);
-			name = "ep_share_invite_bottom@3X.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		938ACBC7BECF7AAF734CF8684A528590 /* ep_car_sure.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C424636047B20EEB6213458CAA4FF8C6 /* ep_car_sure.png */,
-				A6E8B6E8EB8AC2B918EBE669AC092997 /* ep_car_sure.png */,
-			);
-			name = ep_car_sure.png;
-			path = .;
-			sourceTree = "<group>";
-		};
-		9827A998EDF942D7B7141D0CCCCEC807 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D78B458B5A99A2EFE9F5656341F89FD /* InfoPlist.strings */,
-				D96EAF2E16C640ED2163704FA1126C4C /* InfoPlist.strings */,
-			);
-			name = InfoPlist.strings;
-			path = Epathmap/InfoPlist.bundle;
-			sourceTree = "<group>";
-		};
-		98C9574FB1ABF51A98E6C9A87D4B359C /* ep_navi_unfakenavi@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B63499F29A6CB259D66436B88BDD50B5 /* ep_navi_unfakenavi@2x.png */,
-				AE2BD4ABA4B0E9A9D111DA9FAC6D9833 /* ep_navi_unfakenavi@2x.png */,
+				E41E7C0335214BCE709424403ABF90C9 /* ep_navi_unfakenavi@2x.png */,
+				02D5EF6987000F6E2BBDC4AD9CDA3947 /* ep_navi_unfakenavi@2x.png */,
 			);
 			name = "ep_navi_unfakenavi@2x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
-		9BC26DB56A49A3AE43E485306EEBC497 /* ep_car_refreshCarLoc@2x.png */ = {
+		2CAB233DC9667CDC627A5ADD3DAB71A0 /* ep_car_findCar@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C23F4F866C36E1139E5EF6B5BDB08923 /* ep_car_refreshCarLoc@2x.png */,
-				3753FF4A2DCEFB81CD8345BE4996F2DE /* ep_car_refreshCarLoc@2x.png */,
+				BE0623D3CA16A9EC38707B433792D93B /* ep_car_findCar@2x.png */,
+				B59F04A15B14B232145672E5C9E7F88C /* ep_car_findCar@2x.png */,
 			);
-			name = "ep_car_refreshCarLoc@2x.png";
+			name = "ep_car_findCar@2x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
-		A732E800F238272B14C9B9CF35EC2D35 /* ep_marker_start@3x.png */ = {
+		3D250EB3CB4BDF21DBDAA64319F4443A /* ep_navi_fakenavi@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9DA7B15DE9B3F0B2DB05D348F01B5DC /* ep_marker_start@3x.png */,
-				76093E0396440B3DA7A21EBECD88DE38 /* ep_marker_start@3x.png */,
+				E17A08F45ED945A63055A350A4FB59BD /* ep_navi_fakenavi@2x.png */,
+				18E8C28EDA3DE97627A642B076925CC9 /* ep_navi_fakenavi@2x.png */,
 			);
-			name = "ep_marker_start@3x.png";
+			name = "ep_navi_fakenavi@2x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
-		AB679C580B975FDA78DC78CE0DD269C2 /* ep_navi_unrealnavi@3x.png */ = {
+		3D408638B31493D7C2B1FF66C7C875EA /* ep_car_endFind.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C29B75AFA75D831826C86401E9B914FC /* ep_navi_unrealnavi@3x.png */,
-				BA8514FB2255C9EC42298D90AAE3BFA2 /* ep_navi_unrealnavi@3x.png */,
-			);
-			name = "ep_navi_unrealnavi@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		C2D589F6E6708EB3503C995CF2AC3674 /* ep_navi_goHere_big@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F95561281AFB83A8262749F10A4AC41E /* ep_navi_goHere_big@3x.png */,
-				478B7F4E1B8B7EF232B21A51E06D0F50 /* ep_navi_goHere_big@3x.png */,
-			);
-			name = "ep_navi_goHere_big@3x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		C3B6EA89922AF7E08F030E307E1BBF0F /* ep_navi_compass@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E0C001FE2EC586239C9A973DFF383E2 /* ep_navi_compass@2x.png */,
-				9F1FADF98EE79DAD3ECB90DD231CE955 /* ep_navi_compass@2x.png */,
-			);
-			name = "ep_navi_compass@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		DBCE52C9A8605D94139C187F5BAFAA01 /* ep_marker_start@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73C1D29519C100C32C78805503D202C9 /* ep_marker_start@2x.png */,
-				8DF562987B1229DB9CEBCF67856CCA3E /* ep_marker_start@2x.png */,
-			);
-			name = "ep_marker_start@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		E594D1B148E78A9DE05371CDFA3039FE /* ep_marker_target@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7387F98468AEC4F0BFEB44D3C56FDF7 /* ep_marker_target@2x.png */,
-				2AF930B948CE471CF18BACFE90AB96AC /* ep_marker_target@2x.png */,
-			);
-			name = "ep_marker_target@2x.png";
-			path = .;
-			sourceTree = "<group>";
-		};
-		E85D21EA728BFCD4C9FF1F6E4E1A5E17 /* ep_car_endFind.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2BB4B9FCB4E29B756DE9399DDB0178F /* ep_car_endFind.png */,
-				AA532CAD328BE8999B8EF722B9FE8C8E /* ep_car_endFind.png */,
+				F1348ADF883929B4330BFB310E52FF6B /* ep_car_endFind.png */,
+				C199CA142C45DBE349D1DB67F2C65DD0 /* ep_car_endFind.png */,
 			);
 			name = ep_car_endFind.png;
 			path = .;
 			sourceTree = "<group>";
 		};
-		FAF218610AD5F583E1DBA2ACDDA353F9 /* ep_car_refreshCarLoc@3x.png */ = {
+		43724ACA50B8B1CC2A351D1DECDDE600 /* ep_car_clockIn@3x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8AD6A9CC1310A73DEEB89E306A75597D /* ep_car_refreshCarLoc@3x.png */,
-				888359DA76EC0D8980C1C9D906384F15 /* ep_car_refreshCarLoc@3x.png */,
+				8C4818F6721A3606B115F358DD309018 /* ep_car_clockIn@3x.png */,
+				EFE0D66B0D69843A912A310792162D13 /* ep_car_clockIn@3x.png */,
+			);
+			name = "ep_car_clockIn@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		5B603DEE59622A5EFC9459E2CB5626B3 /* ep_marker_start@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D4851B292C30EA5BF911EAD08676BE /* ep_marker_start@2x.png */,
+				19F1F40CD34998A08CB77D716F485028 /* ep_marker_start@2x.png */,
+			);
+			name = "ep_marker_start@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		5FB89EC679E7696DBB9DC1CE75709C40 /* ep_car_sure.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1857971E0C6F6C04CAC1AFE2AEC615C6 /* ep_car_sure.png */,
+				5F2247368DD5B8ABA46E3A37BFE0C973 /* ep_car_sure.png */,
+			);
+			name = ep_car_sure.png;
+			path = .;
+			sourceTree = "<group>";
+		};
+		60DEF68A81435F13098A42E9D90CAC67 /* ep_navi_realnavi@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499EFAC5E13256B1A7F27BB498673B62 /* ep_navi_realnavi@2x.png */,
+				234BF44AAEFCD75CC87D5B33159B171D /* ep_navi_realnavi@2x.png */,
+			);
+			name = "ep_navi_realnavi@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		68023C839F03DDE2DACACA2CBC7AF678 /* ep_car_refreshCarLoc@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278B75EA0C326DEA8CCF69926D6254F8 /* ep_car_refreshCarLoc@3x.png */,
+				79088ECDF7B2CA17C8EC61342D98D84A /* ep_car_refreshCarLoc@3x.png */,
 			);
 			name = "ep_car_refreshCarLoc@3x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
-		FE2233BE2DA1E3B385178B13631E77FA /* ep_car_cancel.png */ = {
+		7428005ED092C9BE180F8F0348131572 /* ep_car_cancel.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E63CD1BB17E0836FF4CBE4F9299A8848 /* ep_car_cancel.png */,
-				BBF69A36696A970B522991C355F26458 /* ep_car_cancel.png */,
+				09D78569943C204A7F7BB79381D15AE9 /* ep_car_cancel.png */,
+				E6F33F6867C3DED61FE3000A9BFE1599 /* ep_car_cancel.png */,
 			);
 			name = ep_car_cancel.png;
+			path = .;
+			sourceTree = "<group>";
+		};
+		76762D8AA1A1E912EB8F6907FBC595D7 /* ep_car_refreshCarLoc@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC3854ADA982D083A38821E2DD39A9A /* ep_car_refreshCarLoc@2x.png */,
+				E684B14813174A84005EC56A379293DA /* ep_car_refreshCarLoc@2x.png */,
+			);
+			name = "ep_car_refreshCarLoc@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		7A89886590830369955C42554843013A /* ep_marker_target@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE6904DB470735AF7058FA3D0EE2417 /* ep_marker_target@3x.png */,
+				F9DA34684D9A2FE3E04D16A3156EFC83 /* ep_marker_target@3x.png */,
+			);
+			name = "ep_marker_target@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		7C113F1EAC77694716C21537261EF212 /* ep_marker_target@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB420BA667AD28995BC8E0E4672844CD /* ep_marker_target@2x.png */,
+				970FDACB1CC95C94C1FD4F229F407315 /* ep_marker_target@2x.png */,
+			);
+			name = "ep_marker_target@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		87D62F8F4241C10894DA5A452AF37393 /* ep_navi_compass@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC55DCD8F28B224F051F39FD661DFC19 /* ep_navi_compass@2x.png */,
+				CDFDACCD7371D033F2B1566320CAB53A /* ep_navi_compass@2x.png */,
+			);
+			name = "ep_navi_compass@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		88ED061411E6C5891E01C704A759F8C5 /* ep_share_invite_bottom@2X.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0385502D4EC3D7A625FCAFAC49981E6A /* ep_share_invite_bottom@2X.png */,
+				DE66637CDBA6797304903BAA478AC9C4 /* ep_share_invite_bottom@2X.png */,
+			);
+			name = "ep_share_invite_bottom@2X.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		A1EF96BCCB53ECA6102B22E14CCFF7AF /* ep_navi_unrealnavi@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF851893240D8AE6422111132CC66A0F /* ep_navi_unrealnavi@2x.png */,
+				CF542C017A28AF9ABA5AF950338CA593 /* ep_navi_unrealnavi@2x.png */,
+			);
+			name = "ep_navi_unrealnavi@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		A2B73F51B000EF6343ED0FAD22F31ED2 /* ep_car_findCar@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B90487D5DA0BA8248A04B7E2CE43C2 /* ep_car_findCar@3x.png */,
+				795425AB43B87F1EB0185A63F5E42A41 /* ep_car_findCar@3x.png */,
+			);
+			name = "ep_car_findCar@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		A6A1516D9545C97661A739A5F8C9C635 /* ep_marker_start@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB824B0355E308A7DE3E8A36D5D59B74 /* ep_marker_start@3x.png */,
+				8F4CF80D6269A39F56D04EEB96FE9457 /* ep_marker_start@3x.png */,
+			);
+			name = "ep_marker_start@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		A9A14A36D5D7F25111326148D1FC81C4 /* ep_navi_goHere_big@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91821E48D740840245D113286FBD31B7 /* ep_navi_goHere_big@3x.png */,
+				2BEAF6697992A6C200531D83D8695088 /* ep_navi_goHere_big@3x.png */,
+			);
+			name = "ep_navi_goHere_big@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		ACC8658D48BF0391535DD9D82D12C5F4 /* ep_navi_unfakenavi@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DAF044E1067D4656E73A915AC142E5 /* ep_navi_unfakenavi@3x.png */,
+				22E75647DF8676D542BE5E1E049F44D9 /* ep_navi_unfakenavi@3x.png */,
+			);
+			name = "ep_navi_unfakenavi@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		BB3DF3CB78DC6F28C14CB1B5592E6E2F /* ep_score_topimg@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE17A71F3ED4079FA925C85B904E5494 /* ep_score_topimg@3x.png */,
+				508BB9F25FE2EE6DB61090521CCC8A3C /* ep_score_topimg@3x.png */,
+			);
+			name = "ep_score_topimg@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		C1C6388BCE72F4B65FB62A8F9E5C396A /* ep_navi_goHere_big@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E40FC11A052E9E5BAD60C7FD03266C /* ep_navi_goHere_big@2x.png */,
+				B42E530BD298932F6FB5F08112BE49EE /* ep_navi_goHere_big@2x.png */,
+			);
+			name = "ep_navi_goHere_big@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		C70AB32C425C0ED4E1CB808C722D724A /* ep_navi_realnavi@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F39BA275953FB189246CBD579A83EAC /* ep_navi_realnavi@3x.png */,
+				52A4F3D4CFECDE35CCFB765F8D3CA7DA /* ep_navi_realnavi@3x.png */,
+			);
+			name = "ep_navi_realnavi@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		C9574D6F22EAF711F29AF4837EDDFBDF /* ep_navi_arrow_left.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC4E29236EC7BC7A414D302541C82AB /* ep_navi_arrow_left.gif */,
+				6EE16F0D5FD62B72227E6DA1FD045702 /* ep_navi_arrow_left.gif */,
+			);
+			name = ep_navi_arrow_left.gif;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D1EBC6AC20325996B4C7658C48D5949F /* ep_navi_arrow_right.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6303A418A3401AD3DF1B3ACF02139F37 /* ep_navi_arrow_right.gif */,
+				F93663FB07A408403AFB4BBC1E5E79EF /* ep_navi_arrow_right.gif */,
+			);
+			name = ep_navi_arrow_right.gif;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D419047B5D2D3C84BDF87D26C18AD02D /* ep_car_naviToCar.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E42A149A685BDEABBCBD711A7DC7A2 /* ep_car_naviToCar.png */,
+				BCC58C92FAB0ED23208585554AAE3A20 /* ep_car_naviToCar.png */,
+			);
+			name = ep_car_naviToCar.png;
+			path = .;
+			sourceTree = "<group>";
+		};
+		E31AA9A7A52CE3E90B424A4571DBD5C8 /* ep_navi_unrealnavi@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F9E341575C0F389C3ECE34E365D12B /* ep_navi_unrealnavi@3x.png */,
+				1A409AE99E20AD98E191CE6BC2701600 /* ep_navi_unrealnavi@3x.png */,
+			);
+			name = "ep_navi_unrealnavi@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		EB01BF3D319DFDAE87FD708B9E14088A /* ep_navi_fakenavi@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC2F365F9E061990E9383252BC367FF /* ep_navi_fakenavi@3x.png */,
+				5909C70C95490920CAABFDA8A8BC8B06 /* ep_navi_fakenavi@3x.png */,
+			);
+			name = "ep_navi_fakenavi@3x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		EB08F90FA2FAAC6475687BD26FFB6C1D /* ep_navi_arrow_go.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD65C6D91C3EAC96E72A4AE5233E933 /* ep_navi_arrow_go.gif */,
+				5C8C0FE12ED0D172EEC552D796B090BC /* ep_navi_arrow_go.gif */,
+			);
+			name = ep_navi_arrow_go.gif;
+			path = .;
+			sourceTree = "<group>";
+		};
+		EE07AE2DC60F341E24972EE1FE38EA07 /* ep_home_logo@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8ED4D44AB000B1DB2593504E4A54A36 /* ep_home_logo@2x.png */,
+				F21537D9CF2879B1E604DB519D21C7E3 /* ep_home_logo@2x.png */,
+			);
+			name = "ep_home_logo@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		F0047636DD540F05CBAEF57793112581 /* ep_car_clockIn@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B4C717BB84567A4E2850411E27B9B4 /* ep_car_clockIn@2x.png */,
+				7F00EA810486CD9041A9A665CA7F704D /* ep_car_clockIn@2x.png */,
+			);
+			name = "ep_car_clockIn@2x.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		F2228849D894DE570A34C73B147BCF1D /* ep_share_invite_bottom@3X.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CE60F259DF1F451E79425D6CF61380 /* ep_share_invite_bottom@3X.png */,
+			);
+			name = "ep_share_invite_bottom@3X.png";
+			path = .;
+			sourceTree = "<group>";
+		};
+		F65E37B43CCEC0BE5FEA8DA7DD8A9C03 /* ep_score_topimg@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1602D3939289303770053F54D20EB6E0 /* ep_score_topimg@2x.png */,
+				1AF9CA9FEDAADBDD26AE020FA5470A13 /* ep_score_topimg@2x.png */,
+			);
+			name = "ep_score_topimg@2x.png";
 			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4EBF1A651B0EE262276AB8D9BCF36E0C /* Debug */ = {
+		003D1B4E69EBADAB0C630B7BBA26E169 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DBBB2ECBEBE3A0190763D713F4C35B2 /* Pods-EapthMap_Example.debug.xcconfig */;
+			baseConfigurationReference = C2AC68507D8B74BF46760724C00F4B92 /* Pods-EapthMap_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -938,7 +809,68 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EapthMap_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		038B9E3482B823EDE866D3C0239687D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB0D4B8C9786080A29073B72147FB86 /* EpathMap.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A94A4BB6DEC1817963232A84FACB037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68F313BA9311C02A0CB14C906BE47B1 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9493C2253EBEC2435E1123B1240F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201055D2BE6629FCED4D31169DDD25C1 /* Pods-EapthMap_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -957,7 +889,7 @@
 			};
 			name = Debug;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -989,8 +921,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1019,72 +949,7 @@
 			};
 			name = Release;
 		};
-		A08E0FBEF4FF87FEB8A6A41658147508 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED95EC5C6890CEEA6B34AD22C51E7FE9 /* EpathMap.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EpathMap/EpathMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EpathMap/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EpathMap/EpathMap.modulemap";
-				PRODUCT_MODULE_NAME = EpathMap;
-				PRODUCT_NAME = EpathMap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6E17380142D6B0BD39A779F2AFC502C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DCEF1A433132795993EBDFB116842C /* Pods-EapthMap_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EapthMap_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EapthMap_Example/Pods-EapthMap_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1116,8 +981,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1150,62 +1013,68 @@
 			};
 			name = Debug;
 		};
-		D9623598DB22D0B493977B8516EDB05D /* Debug */ = {
+		DC76BC21C323C866B9FA90947F3B9E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED95EC5C6890CEEA6B34AD22C51E7FE9 /* EpathMap.xcconfig */;
+			baseConfigurationReference = B68F313BA9311C02A0CB14C906BE47B1 /* WechatOpenSDK.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EpathMap/EpathMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EpathMap/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EpathMap/EpathMap.modulemap";
-				PRODUCT_MODULE_NAME = EpathMap;
-				PRODUCT_NAME = EpathMap;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		EFBC8D2226F0E571FF40C4AB4A5F56AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB0D4B8C9786080A29073B72147FB86 /* EpathMap.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A3697FE51AE9F5E01C32D414C67597D /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC76BC21C323C866B9FA90947F3B9E1A /* Debug */,
+				2A94A4BB6DEC1817963232A84FACB037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3467BADE834CEA7DC6C809489D960E1D /* Build configuration list for PBXNativeTarget "EpathMap" */ = {
+		AB0FAB6BD75B7C9B0B83F427698D5F48 /* Build configuration list for PBXNativeTarget "Pods-EapthMap_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9623598DB22D0B493977B8516EDB05D /* Debug */,
-				A08E0FBEF4FF87FEB8A6A41658147508 /* Release */,
+				7F9493C2253EBEC2435E1123B1240F2D /* Debug */,
+				003D1B4E69EBADAB0C630B7BBA26E169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92F27C837293EAD7F6BFBC00378A7D4D /* Build configuration list for PBXNativeTarget "Pods-EapthMap_Example" */ = {
+		EA4B3DAB9CCED3DCA3680761925DC29B /* Build configuration list for PBXAggregateTarget "EpathMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EBF1A651B0EE262276AB8D9BCF36E0C /* Debug */,
-				A6E17380142D6B0BD39A779F2AFC502C /* Release */,
+				038B9E3482B823EDE866D3C0239687D0 /* Debug */,
+				EFBC8D2226F0E571FF40C4AB4A5F56AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

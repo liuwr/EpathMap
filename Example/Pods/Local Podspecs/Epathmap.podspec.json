@@ -1,6 +1,6 @@
 {
   "name": "EpathMap",
-  "version": "1.0.65",
+  "version": "1.0.87",
   "summary": "释途室内地图导航SDK",
   "description": "TODO: 释途室内导航 EpathmapSDK Indoor navigation map ibeacon buildings",
   "homepage": "https://github.com/liuwr/EpathMap",
@@ -13,20 +13,19 @@
   },
   "source": {
     "git": "https://github.com/liuwr/EpathMap.git",
-    "tag": "1.0.65"
+    "tag": "1.0.87"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Epathmap/**/*",
+  "resources": [
+    "Epathmap/InfoPlist.bundle",
+    "Epathmap/EpathmapSDKImage/**/*",
+    "Epathmap/Image.xcassets/**/*"
+  ],
   "ios": {
     "vendored_frameworks": "EpathmapSDK/EpathmapSDK.framework"
   },
-  "resources": [
-    "EpathmapSDK.xcassets",
-    "EpathmapSDKImage/**/*.png",
-    "EpathmapSDK/EpathmapSDK.framework"
-  ],
   "frameworks": [
     "UIKit",
     "Foundation",
