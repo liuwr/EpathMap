@@ -24,7 +24,7 @@ s.source           = { :git => 'https://github.com/liuwr/EpathMap.git', :tag => 
 s.ios.deployment_target = '8.0'
 #s.source_files = 'Epathmap/**/*'
 
-s.resources = "Epathmap/InfoPlist.bundle","Epathmap.bundle","Epathmap/Image.xcassets/**/*"
+s.resources = "Epathmap/InfoPlist.bundle","Epathmap/Epathmap.bundle","Epathmap/Image.xcassets/**/*"
 #"EpathmapImg/**/*.png"
 
 s.ios.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
