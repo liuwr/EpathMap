@@ -6,18 +6,20 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
+"CFBundleDisplayName"="释途";
 "EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
 
-"NSBluetoothPeripheralUsageDescription" = "开启蓝牙以使用室内导航服务";//
-"NSCameraUsageDescription" = "释途导航需要您的同意,才能访问相机";//
-"NSContactsUsageDescription" = "释途导航需要您的同意,才能访问通讯录";//
-"NSLocationAlwaysUsageDescription" = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
-"NSLocationWhenInUseUsageDescription" = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
-"NSMicrophoneUsageDescription" = "释途导航会在语音搜索中使用您的麦克风";//
+NSBluetoothPeripheralUsageDescription = "开启蓝牙以使用室内导航服务";//
+NSCameraUsageDescription = "释途导航需要您的同意,才能访问相机";//
+NSContactsUsageDescription = "释途导航需要您的同意,才能访问通讯录";//
+NSLocationAlwaysUsageDescription = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
+NSLocationWhenInUseUsageDescription = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
+NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦克风";//
 
 "EP_WeChat" = "微信";//
 "EP_SMS" = "短信";//
 "EP_Copy" = "复制";//
+"EP_InstallWeChat" = "请您安装微信！";//
 "EP_ClickViewMoreContent" = "点击查看更多内容";//
 "EP_CancleShare" = "取消分享";//
 "EP_CanNotJoin" = "不是该建筑物的位置,共享群无法加入！";//
@@ -132,7 +134,7 @@
 "EP_CheckYourNetworkSettings" = "当前网络不可用，请检查你的网络设置";//
 "EP_Setting" = "设置";//
 "EP_OK" = "好";//
-"EP_NotSupportLiveNavigation" = "该设备不支持实景导航";//
+"EP_NotSupportLiveNavigation" = "该设备不支持实景导航,系统必须在iOS11.0 以上才支持实景导航";//
 "EP_LoadingComplete" = "数据加载完成";//
 "EP_RateThisNavigation" = "给本次导航打个分";//
 "EP_PositioningFailed" = "定位失败,请稍候重试!";//

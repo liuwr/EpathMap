@@ -6,18 +6,20 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
+"CFBundleDisplayName"="Epath";
 "EP_Langueage" = "en-US";//
 
-"NSBluetoothPeripheralUsageDescription" = "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
-"NSCameraUsageDescription" = "Epath requires access to phone camera";//释途App需要您的同意,才能访问相机
-"NSContactsUsageDescription" = "Epath requires consent to access your contacts";//释途App需要您的同意,才能访问通讯录
-"NSLocationAlwaysUsageDescription" = "Epath will use your location information in services such as outdoor positioning and navigation";//释途会在室外定位及导航等服务中使用您的位置信息
-"NSLocationWhenInUseUsageDescription" = "Epath will use your location information in services such as outdoor positioning and navigation";//释途会在室外定位及导航等服务中使用您的位置信息
-"NSMicrophoneUsageDescription" = "Epath will use your microphone for voice search";//释途会在语音搜索中使用您的麦克风
+NSBluetoothPeripheralUsageDescription = "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
+NSCameraUsageDescription = "Epath requires access to phone camera";//释途App需要您的同意,才能访问相机
+NSContactsUsageDescription = "Epath requires consent to access your contacts";//释途App需要您的同意,才能访问通讯录
+NSLocationAlwaysUsageDescription = "Epath will use your location information in services such as outdoor positioning and navigation";//释途会在室外定位及导航等服务中使用您的位置信息
+NSLocationWhenInUseUsageDescription = "Epath will use your location information in services such as outdoor positioning and navigation";//释途会在室外定位及导航等服务中使用您的位置信息
+NSMicrophoneUsageDescription = "Epath will use your microphone for voice search";//释途会在语音搜索中使用您的麦克风
 
 "EP_WeChat" = "WeChat";//微信
 "EP_SMS" = "SMS";//短信
 "EP_Copy" = "copy";//复制
+"EP_InstallWeChat" = "lease install WeChat!";//请您安装微信！
 "EP_ClickViewMoreContent" = "Click to view more content";//点击查看更多内容
 "EP_CancleShare" = "Cancel sharing";//取消分享
 "EP_CanNotJoin" = "Not the location of the building, the shared group can't join!";//不是该建筑物的位置,共享群无法加入！
@@ -132,7 +134,7 @@
 "EP_CheckYourNetworkSettings" = "The current network is not available, please check your network settings";//当前网络不可用，请检查你的网络设置
 "EP_Setting" = "Settings";//设置
 "EP_OK" = "OK";//好
-"EP_NotSupportLiveNavigation" = "The device does not support live navigation";//该设备不支持实景导航
+"EP_NotSupportLiveNavigation" = "The device does not support live navigation,The system must support live view navigation on iOS 11.0 or higher";//该设备不支持实景导航
 "EP_LoadingComplete" = "Loading complete";//数据加载完成
 "EP_RateThisNavigation" = "Rate this navigation";//给本次导航打个分
 "EP_PositioningFailed" = "Positioning failed, please try again later!";//定位失败,请稍候重试!
