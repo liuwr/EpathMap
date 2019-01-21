@@ -6,8 +6,7 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
-"CFBundleDisplayName"="释途";
-"EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
+s"EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
 
 NSBluetoothPeripheralUsageDescription = "开启蓝牙以使用室内导航服务";//
 NSCameraUsageDescription = "释途导航需要您的同意,才能访问相机";//

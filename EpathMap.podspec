@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'EpathMap'
-s.version = '1.0.9'
+s.version = '1.0.91'
 s.summary = '释途室内地图导航SDK'
 
 s.description      = <<-DESC

@@ -6,7 +6,6 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
-"CFBundleDisplayName"="Epath";
 "EP_Langueage" = "en-US";//
 
 NSBluetoothPeripheralUsageDescription = "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
