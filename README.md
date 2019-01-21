@@ -4,7 +4,7 @@ EpathmapSDK 是一套基于 iOS 8.0 及以上版本的室内地图应用程序�
 ## 获取AppKey
 请填写
 **[申请表](https://github.com/epath/EpathmapSDK-iOS/blob/master/Readme.asset/释途客户应用申请表.xlsx)** 
-给dev@e-path.cn邮件联系获取appKey、mapId、scheme（分享用）
+给liuwr@e-path.cn邮件联系获取appKey、mapId、scheme（分享用）
 
 ## 使用CocoaPods部署
 在Podfile中使用命令如下：
