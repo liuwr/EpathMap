@@ -6,7 +6,7 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
-s"EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
+"EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
 
 NSBluetoothPeripheralUsageDescription = "开启蓝牙以使用室内导航服务";//
 NSCameraUsageDescription = "释途导航需要您的同意,才能访问相机";//
@@ -66,15 +66,17 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_VolumeSize" = "请根据环境调节音量大小";//;//
 "EP_ArrivedYourDestination" = "您已到达目的地";//
 "EP_ArrivingAtYourDestination" = "到达目的地";//
-"EP_Escalator" = "扶梯";//
+"EP_Escalator" = "自动扶梯";//
 "EP_Elevator" = "电梯";//
 "EP_Stairs" = "楼梯";//
 "EP_UpperAndLower" = "上下层";//
 "EP_OnTheSameFloor" = "在同层";//On the same floor
+"EP_SameFloor" = "同层";//
+"EP_NotSameFloor" = "不在同层";//
 "EP_Current" = "(当前)";//
 "EP_Nearby" = "附近";//
-"EP_After" = "之后";//After
-"EP_AfterL" = "";//After
+"EP_ClosestTo" = " ";//
+"EP_ClosestToL" = " 附近";//
 "EP_Joining" = "加入中...";//
 "EP_SaySomething" = "说点其他的...";//
 "EP_NoInformationFound" = "没有找到关于";//
@@ -178,6 +180,7 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_SearchingDestination" = "搜寻目的地...";//...
 "EP_MoreResults" = "点击展开更多结果";//
 "EP_PauseSharing" = "暂停分享";//
+"EP_NavigationPause" = "导航被暂停-点击继续导航";//
 "EP_Exit" = "退出";//
 "EP_Share" = "分享";//
 "EP_ConfirmEndService" = "确认结束本次服务？";//
@@ -185,13 +188,6 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_NoSignal" = "无信号";//
 "EP_OpenMapFromLink" = "从链接打开地图吗？";//
 "EP_PositioningFailure" = "当前室内定位失败，请到开阔地！";//
-"EP_TurnLeft" = "前方左转 ";//前方左转     左转
-"EP_TurnRight" = "前方右转";//前方右转    右转
-"EP_Front" = "前方";//Front
-"EP_FacingTheWrongDirectio" = "请调整方向与路线方向一致";//
-"EP_NearingYourDestination" = "您已到达目的地附近,感谢您使用释途导航！";//
-"EP_WalkStraight" = "请直行";//
-"EP_ContinueStraight" = "请继续直行";//
 "EP_Up" = "上";//
 "EP_Down" = "下";//
 
@@ -205,15 +201,31 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_Seconds" = "秒";//n分钟前
 "EP_Day" = "天";//天
 "EP_Yuan" = "元";//
-
+"EP_CanotFindDestination" = "查询不到该目的地！";//
+"EP_CannotSameDestination" = "不能与终点相同哦";//
+"EP_NotSameStarting" = "不能与起点相同哦";//
+"EP_NotUploadedLocation" = "对方未上传位置信息！";//
+"EP_UpperLimit" = "当前共享群人数已达上限";//
+"EP_DistanceNearest" = "最近";//
 "EP_InvitesYouToShareYourLocation" = "%s invites you to share your location, %s copy the entire message%s to open the app download link:%s";//您的小伙伴%s邀请您加入在%s的位置共享,组号是%s复制整条信息%s后打开\nAPP下载链接:%s
 "EP_CurrentlyViewedBuilding" = "当前浏览的建筑物不是好友分享的建筑物，请点击左上角的返回按钮返回到列表界面，再点击分享链接进行分享";//
 "EP_SendInformation" = "把此信息通过微信/QQ/短信\n复制发送给你的小伙伴";//
 "EP_CopySuccessfully" = "复制成功,去分享给你的小伙伴吧!";//
+
+"EP_After" = "之后";//After
+"EP_AfterL" = "";//After
+"EP_Hou" = "后";//
+"EP_Front" = "前方";//Front
+"EP_FacingTheWrongDirectio" = "请调整方向与路线方向一致";//
+"EP_NearingYourDestination" = "您已到达目的地附近,感谢您使用释途导航！";//
+"EP_WalkStraight" = "请直行";//
+"EP_ContinueStraight" = "请继续直行";//
 "EP_BeforeArrivingYourDestination" = "米到达目的地";//前方3米到达目的地 XX meters before arriving at your destination
 "EP_WalkStraightAhead" = "请直行";//;//3米 Walk straight ahead for 3 meters.
 "EP_TurnLeftL" = "左转";//;//%米后 in % meter,turn left
 "EP_TurnRightL" = "右转";//;//%米后
+"EP_TurnLeft" = "前方左转 ";//前方左转     左转
+"EP_TurnRight" = "前方右转";//前方右转    右转
 "EP_TakeSlightLeft" = "米后向左前方行走";//;//%米后向左前方行走 in % meters, take a slight left
 "EP_TakeSlightRight" = "米后向右前方行走";//;//%米后向右前方行走 in % meters, take a slight right
 "EP_ReverseTakeSlightLeft" = "米后向左后方行走";//;//%米后向左后方行走
@@ -222,6 +234,7 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_TakeASlightRight" = "向右前方行走";//;
 "EP_ReverseTakeASlightLeft" = "向左后方行走";//;//
 "EP_ReverseTakeASlightRight" = "向右后方行走";//;//
+"EP_ProceedTakeBack" = "向后方行走";//
 "EP_YourDestinationIs" = "距目的地";//;// d% 米，耗时约%分钟
 "EP_ApproximatelyMinutes" = "米，耗时约";//;//距目的地 d% 米，耗时约%分钟
 "EP_ApproximatelySeconds" = "米，耗时约";//;//距目的地 d% 米，耗时约%秒
@@ -237,6 +250,16 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_ContinueAheadYourRight" = "后向右前方行走";//d%米后向右前方行走
 "EP_DegreesYourLeftContinueAhead" = "后向左后方行走";//d%米后向左后方行走
 "EP_DegreesYourRighttContinueAhead" = "后向右后方行走";//d%米后向右后方行走
+
+"EP_hint_escalator" = "大约在你的";//
+"EP_direction_left" = "左边";//左转
+"EP_direction_right" = "右边";//右转
+"EP_direction_left_front" = "左前方";//;
+"EP_direction_right_front" = "右前方";//;//
+"EP_direction_left_rear" = "左后方";//;//
+"EP_direction_right_rear" = "右后方";//;//
+"EP_direction_rear" = "后方";//;//
+"EP_direction_ahead" = "前方";//;//
 
 "EP_TO" = "";//>>>>
 "EP_IN" = "";//------>>>>
@@ -258,6 +281,10 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 
 "EP_TurnCameraPermissions" = "请打开相机权限";//
 "EP_SettingsPrivacyCameraMes" = "请到手机系统的[设置]->[隐私]->[相机]中打开[释途]相机服务，以便正常使用实景导航功能";//
+
+"EP_ExitAccessibleNavigation" = "退出无障碍导航";//退出无障碍导航
+"EP_Is" = "是";//
+"EP_ShareCurrently" = "好友的位置";//好友的位置 分享链接
 
 //=============图片名字================
 "ep_car_cancel" = "ep_car_cancel";
