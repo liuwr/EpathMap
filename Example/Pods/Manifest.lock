@@ -1,13 +1,33 @@
 PODS:
-  - EpathMap (1.0.87)
+  - Bolts/Tasks (1.9.0)
+  - Bugly (2.4.8)
+  - EpathMap (1.0.95)
+  - Mixpanel (3.1.9)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SVProgressHUD (2.1.2)
   - WechatOpenSDK (1.8.3)
 
 DEPENDENCIES:
+  - Bugly (~> 2.4.8)
   - EpathMap (from `../`)
+  - Mixpanel (~> 3.1.9)
+  - Parse (~> 1.14.4)
+  - SDWebImage (~> 3.8.2)
+  - SVProgressHUD (~> 2.1.2)
   - WechatOpenSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Bugly
+    - Mixpanel
+    - Parse
+    - SDWebImage
+    - SVProgressHUD
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -15,9 +35,15 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EpathMap: 77fd70f5b3cedeafa607363ef9004fbabddd87af
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  EpathMap: 1f3353839621fa396db224549aed9dfa9089b7e0
+  Mixpanel: 57923411aec1a1c7926efbb158f0bbd4460803fa
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
 
-PODFILE CHECKSUM: 516d4d11e3f660be4fd4bf81cefedf1897774ef6
+PODFILE CHECKSUM: 3d33adf8897a382fe2c19fb33a497c697993f7f7
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
