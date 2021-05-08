@@ -1,5 +1,5 @@
 # EpathmapSDK
-EpathmapSDK 是一套基于 iOS 8.0 及以上版本的室内地图应用程序开发接口，供开发者在自己的iOS应用中加入室内地图相关的功能，包括：地图显示（多楼层、多栋楼）、室内导航、模拟导航、语音播报等功能。
+EpathmapSDK 是一套基于 iOS 9.0 及以上版本的室内地图应用程序开发接口，供开发者在自己的iOS应用中加入室内地图相关的功能，包括：地图显示（多楼层、多栋楼）、室内导航、模拟导航、语音播报等功能。
 
 ## 获取AppKey
 请填写
@@ -9,7 +9,7 @@ EpathmapSDK 是一套基于 iOS 8.0 及以上版本的室内地图应用程序�
 ## 使用CocoaPods部署
 在Podfile中使用命令如下：
 ```bash
-pod 'EpathMap','1.0.94'
+pod 'EpathMap','1.1.0'
 ```
 然后运行以下命令
 
@@ -31,16 +31,18 @@ $ pod install
 ```bash
 <key>NSBluetoothPeripheralUsageDescription</key>
 <string>开启蓝牙以使用室内导航服务</string>
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>开启蓝牙以使用室内导航服务</string>
 <key>NSCameraUsageDescription</key>
 <string>释途App需要您的同意,才能访问相机</string>
 <key>NSContactsUsageDescription</key>
 <string>App需要您的同意,才能访问通讯录</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>释途会在室外定位及导航等服务中使用您的位置信息</string>
 <key>NSLocationAlwaysUsageDescription</key>
-<string>释途App会在室外定位及导航等服务中使用您的位置信息</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>释途App会在室外定位及导航等服务中使用您的位置信息</string>
+<string>释途会在室外定位及导航等服务中使用您的位置信息</string>
 <key>NSMicrophoneUsageDescription</key>
-<string>释途App会在语音搜索中使用您的麦克风</string>
+<string>释途会在语音搜索中使用您的麦克风</string>
 ```
 ## 使用说明  
 
@@ -55,12 +57,12 @@ $ pod install
 
 ### 显示室内地图
 ```objective-c
-EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:@"lGaWCUtqoj"];
+EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:@"lGaWCUtqoj" withFrame:CGRectMake(0, 20, ScreenWidth, ScreenHeight-24)];
 [self.navigationController pushViewController:vc animated:YES];
 ```
 ### 导航至具体地址
 ```objective-c
-EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:@"lGaWCUtqoj" targetName:@"高交会" targetId:@"200191"];
+EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:@"lGaWCUtqoj" targetName:@"高交会" targetId:@"200191" withFrame:CGRectMake(0, 20, ScreenWidth, ScreenHeight-24)];
 [self.navigationController pushViewController:vc animated:YES];
 ```
 ### 是否在地图范围内的接口

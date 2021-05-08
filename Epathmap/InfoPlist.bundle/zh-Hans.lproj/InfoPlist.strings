@@ -6,9 +6,12 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
+"CFBundleDisplayName"="释途";
 "EP_Langueage" = "zh-CN";//@"zh-CN"];//en-US
 
 NSBluetoothPeripheralUsageDescription = "开启蓝牙以使用室内导航服务";//
+NSBluetoothAlwaysUsageDescription =  "开启蓝牙以使用室内定位导航服务";//
+
 NSCameraUsageDescription = "释途导航需要您的同意,才能访问相机";//
 NSContactsUsageDescription = "释途导航需要您的同意,才能访问通讯录";//
 NSLocationAlwaysUsageDescription = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
@@ -30,6 +33,7 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_PositioningInProgress" = "定位中...请稍后";//
 "EP_ConnectionLost" = "当前无信号，您可能不在信号覆盖区域";//
 "EP_Searching" = "正在搜索...";//
+"EP_Search" = "搜索";//
 "EP_UnableAttainLocation" = "无法获取你当前位置";//
 "EP_StartNavigating" = "开始导航";//
 "EP_ContinueNavigating" = "继续导航";//
@@ -38,6 +42,7 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_Cancel" = "取消";//
 "EP_RedirectToIndicatedRoute" = "请调整方向与路线一致";//
 "EP_InputDestination" = "目的地搜索";//
+"EP_InputStartPoint" = "起点搜索";//
 "EP_SearchByFloor" = "楼层导览";//
 "EP_PopularSearches" = "热门搜索";//
 "EP_SearchHistory" = "历史搜索";//
@@ -158,7 +163,7 @@ NSMicrophoneUsageDescription = "释途导航会在语音搜索中使用您的麦
 "EP_CurrentlyNoSignal" = "当前无信号，您可能不在信号覆盖范围区域";//
 "EP_AcceptFriendLocationSharing" = "是否要加入好友的位置共享";//
 "EP_Arrived" = "到达";//
-"EP_Searching" = "正在查看";//
+"EP_Viewing" = "正在查看";//
 "EP_Meters" = "米";//
 "EP_Meter" = "米";//
 "EP_SomethingWrong" = "定位异常,请稍候重试!";//

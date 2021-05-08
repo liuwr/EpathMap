@@ -19,9 +19,15 @@
 
 - (nonnull instancetype)initWithMapId:(nonnull NSString *)mapId;
 
+- (nonnull instancetype)initWithMapId:(nonnull NSString *)mapId withFrame:(CGRect )frame;
+
 - (nonnull instancetype)initWithBuildInfo:(nonnull EpathBuilding *)building;
 
+- (nonnull instancetype)initWithBuildInfo:(nonnull EpathBuilding *)building withFrame:(CGRect )frame;
+
 - (nonnull instancetype)initWithMapId:(nonnull NSString *)mapId targetName:(nonnull NSString *)targetName targetId:(nonnull NSString *)targetId;
+
+- (nonnull instancetype)initWithMapId:(nonnull NSString *)mapId targetName:(nonnull NSString *)targetName targetId:(nonnull NSString *)targetId  withFrame:(CGRect )frame;
 
 @property (nonatomic, weak, nullable)id<EpathLocationShareProtocol> locationShareDelegate;
 
@@ -32,6 +38,5 @@
 - (void)setLocationShareInfo:(nonnull NSDictionary *)params;
 
 @property (nonatomic, assign)BOOL isHiddenPickingCarBtn;
-@property (nonatomic, assign)BOOL isHiddenARBtn;
 
 @end

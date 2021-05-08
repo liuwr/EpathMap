@@ -6,9 +6,11 @@
  Copyright © 2018 Epath. All rights reserved.
  */
 
+"CFBundleDisplayName"="Epath";
 "EP_Langueage" = "en-US";//
 
 NSBluetoothPeripheralUsageDescription = "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
+NSBluetoothAlwaysUsageDescription =  "Turn on Bluetooth to utilise service";//开启蓝牙以使用室内导航服务
 NSCameraUsageDescription = "Epath requires access to phone camera";//释途App需要您的同意,才能访问相机
 NSContactsUsageDescription = "Epath requires consent to access your contacts";//释途App需要您的同意,才能访问通讯录
 NSLocationAlwaysUsageDescription = "Epath will use your location information in services such as outdoor positioning and navigation";//释途会在室外定位及导航等服务中使用您的位置信息
@@ -30,6 +32,7 @@ NSMicrophoneUsageDescription = "Epath will use your microphone for voice search"
 "EP_PositioningInProgress" = "Positioning in progress. Please Wait";//定位中…请稍后
 "EP_ConnectionLost" = "Connection Lost. Please check your internet connection";//当前无信号，您可能不在信号覆盖区域
 "EP_Searching" = "Searching…";//正在搜索...
+"EP_Search" = "Search";//
 "EP_UnableAttainLocation" = "Unable to attain your current location";//无法获取你当前位置
 "EP_StartNavigating" = "Start navigating";//开始导航
 "EP_ContinueNavigating" = "Continue navigating";//继续导航
@@ -38,6 +41,7 @@ NSMicrophoneUsageDescription = "Epath will use your microphone for voice search"
 "EP_Cancel" = "Cancel";//取消
 "EP_RedirectToIndicatedRoute" = "Redirect to indicated route";//请调整方向与路线一致
 "EP_InputDestination" = "Input Destination";//目的地搜索
+"EP_InputStartPoint" = "Input Starting point";//
 "EP_SearchByFloor" = "Search by Floor";//楼层导览
 "EP_PopularSearches" = "Popular Searches";//热门搜索
 "EP_SearchHistory" = "Search History";//@"历史搜索"
@@ -158,7 +162,7 @@ NSMicrophoneUsageDescription = "Epath will use your microphone for voice search"
 "EP_CurrentlyNoSignal" = "There is currently no signal. You may not be in the signal coverage area";//当前无信号，您可能不在信号覆盖范围区域
 "EP_AcceptFriendLocationSharing" = "Accept a friend's location sharing";//是否要加入好友的位置共享
 "EP_Arrived" = "Arrived";//到达
-"EP_Searching" = "Searching";//正在查看
+"EP_Viewing" = "Viewing";//正在查看
 "EP_Meters" = " meters";//米
 "EP_Meter" = "m";//米
 "EP_SomethingWrong" = "Something has gone wrong, try again later!";//定位异常,请稍候重试!
