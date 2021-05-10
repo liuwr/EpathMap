@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'EpathMap'
-s.version = '1.1.81'
+s.version = '1.1.82'
 s.summary = '释途室内地图导航SDK'
 
 s.description      = <<-DESC
@@ -28,7 +28,7 @@ s.resources = "Epathmap/InfoPlist.bundle","Epathmap/Epathmap.bundle"
 #,"Epathmap/Epathmap.xcassets"
 #"EpathmapImg/**/*.png"
 
-s.ios.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
+s.ios.vendored_frameworks = "EpathmapSDK/Frameworks/EpathmapSDK.framework"
 
 s.frameworks = "UIKit", "Foundation", "QuartzCore", "SystemConfiguration", "CoreGraphics", "CoreLocation", "CoreTelephony", "AudioToolbox", "AVFoundation", "AddressBook"
 s.weak_framework = "Contacts"
