@@ -29,9 +29,8 @@
     [self.view addSubview:btn];
 }
 
--(void)btnClick
-{
-    EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:MapId];
+-(void)btnClick{
+    EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:MapId withFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-80)];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     [self presentViewController:nav animated:YES completion:nil];
     //    [self.navigationController pushViewController:vc animated:YES];

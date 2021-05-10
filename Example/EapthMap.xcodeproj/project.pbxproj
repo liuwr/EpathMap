@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		040900E021EDAF7F00926907 /* InfoPlist.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 040900DF21EDAF7F00926907 /* InfoPlist.bundle */; };
-		040900E121EDB31D00926907 /* EpathmapSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 047C2CD621E44159005541DD /* EpathmapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		040D5F3A21DCC1020099A254 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3921DCC1020099A254 /* SystemConfiguration.framework */; };
 		040D5F3C21DCC1080099A254 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3B21DCC1080099A254 /* CFNetwork.framework */; };
 		040D5F3E21DCC10F0099A254 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D5F3D21DCC10F0099A254 /* CoreTelephony.framework */; };
@@ -43,19 +42,6 @@
 			remoteInfo = EapthMap;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		040D5F4521DCC1A80099A254 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				040900E121EDB31D00926907 /* EpathmapSDK.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		040900DF21EDAF7F00926907 /* InfoPlist.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = InfoPlist.bundle; path = ../../Epathmap/InfoPlist.bundle; sourceTree = "<group>"; };
@@ -248,7 +234,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6009ABEBBD0057013DD4AA10 /* [CP] Embed Pods Frameworks */,
-				040D5F4521DCC1A80099A254 /* CopyFiles */,
 				55BB36C31DBA7D0544FAACFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -285,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Epathmap;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "liuwr1992@163.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -298,7 +283,7 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "EapthMap" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -1379,6 +1364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1397,6 +1383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1422,7 +1409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1433,6 +1420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1451,6 +1439,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1469,7 +1458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1486,7 +1475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EapthMap/EapthMap-Prefix.pch";
 				INFOPLIST_FILE = "EapthMap/EapthMap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruren.zhipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1504,7 +1493,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EapthMap/EapthMap-Prefix.pch";
 				INFOPLIST_FILE = "EapthMap/EapthMap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruren.zhipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
