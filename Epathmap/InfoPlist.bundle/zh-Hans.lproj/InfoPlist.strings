@@ -11,6 +11,7 @@
 
 NSBluetoothPeripheralUsageDescription = "开启蓝牙以使用室内导航服务";//
 NSBluetoothAlwaysUsageDescription =  "开启蓝牙以使用室内定位导航服务";//
+
 NSCameraUsageDescription = "释途导航需要您的同意,才能访问相机";//
 NSContactsUsageDescription = "释途导航需要您的同意,才能访问通讯录";//
 NSLocationAlwaysUsageDescription = "释途导航会在室外定位及导航等服务中使用您的位置信息";//
